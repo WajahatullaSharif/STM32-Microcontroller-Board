@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32F103C8T6")(type "KiCad")(uri "${KIPRJMOD}/symbols/STM32F103C8T6.kicad_sym")(options "")(descr ""))
+  (lib (name "DP83826IRHBR")(type "KiCad")(uri "${KIPRJMOD}/symbols/DP83826IRHBR.kicad_sym")(options "")(descr ""))
+  (lib (name "RJMG1S8008101BR")(type "KiCad")(uri "${KIPRJMOD}/symbols/RJMG1S8008101BR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD7104MUTAG")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESD7104MUTAG.kicad_sym")(options "")(descr ""))
+  (lib (name "B4PS-VH_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/symbols/B4PS-VH_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "SMBJ15A")(type "KiCad")(uri "${KIPRJMOD}/symbols/SMBJ15A.kicad_sym")(options "")(descr ""))
+  (lib (name "ULN2803CDWR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ULN2803CDWR.kicad_sym")(options "")(descr ""))
+)
