@@ -1,0 +1,68 @@
+###############################################################################
+# KiCad 9.x – Cache, Backup, Temp files
+###############################################################################
+
+# Project local settings (auto-generated, user-specific)
+*.kicad_prl
+
+# Backup files
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_sym-bak
+
+# Auto-saved files
+_autosave-*
+*.tmp
+*.temp
+
+###############################################################################
+# KiCad 9 – Footprint & Symbol cache
+###############################################################################
+
+# Footprint info cache
+fp-info-cache
+
+# Schematic symbol cache (auto-generated)
+*-cache.kicad_sch
+*-rescue.kicad_sch
+
+###############################################################################
+# KiCad 9 – Plot / Output folders
+###############################################################################
+
+# Gerbers, drill files, fabrication outputs
+gerbers/
+fabrication/
+output/
+plot/
+drill/
+
+###############################################################################
+# KiCad 9 – Simulation & netlist
+###############################################################################
+
+*.net
+*.cir
+*.raw
+*.spice
+
+###############################################################################
+# KiCad 9 – Temporary & OS files
+###############################################################################
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+###############################################################################
+# KiCad 9 – Python / plugin cache
+###############################################################################
+
+__pycache__/
+*.pyc
+
