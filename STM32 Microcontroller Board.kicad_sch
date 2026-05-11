@@ -232,7 +232,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9091ff12-0967-40cb-afdc-ec72d374a9ec")
-		(property "Sheetname" "GPIO extension"
+		(property "Sheetname" "Power"
 			(at 117.094 124.0024 0)
 			(effects
 				(font
@@ -241,7 +241,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "GPIO_extension.kicad_sch"
+		(property "Sheetfile" "Power.kicad_sch"
 			(at 117.094 151.7146 0)
 			(effects
 				(font
