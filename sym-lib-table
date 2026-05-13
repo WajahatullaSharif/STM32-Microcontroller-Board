@@ -7,4 +7,5 @@
   (lib (name "B4PS-VH_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/symbols/B4PS-VH_LF__SN_.kicad_sym")(options "")(descr ""))
   (lib (name "SMBJ15A")(type "KiCad")(uri "${KIPRJMOD}/symbols/SMBJ15A.kicad_sym")(options "")(descr ""))
   (lib (name "ULN2803CDWR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ULN2803CDWR.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP1825S-3302EEB")(type "KiCad")(uri "${KIPRJMOD}/symbols/MCP1825S-3302EEB.kicad_sym")(options "")(descr ""))
 )
