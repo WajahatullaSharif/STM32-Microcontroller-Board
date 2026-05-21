@@ -2722,6 +2722,22 @@
 		)
 		(uuid "9b491228-325e-4420-a728-50dae06797b9")
 	)
+	(text "PHY_RST"
+		(exclude_from_sim no)
+		(at 24.384 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b79f257b-48aa-4fa5-b929-03135b1ea39d")
+	)
+	(junction
+		(at 111.76 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0702e5ee-4f0d-44c7-8229-85189e69a22f")
+	)
 	(junction
 		(at 269.24 104.14)
 		(diameter 0)
@@ -2819,12 +2835,6 @@
 		(uuid "7bfac6ab-aaa4-4755-bffe-f2eb3820cecb")
 	)
 	(junction
-		(at 111.76 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "831d747d-8ab7-4e08-bc9c-6ace023fa5d4")
-	)
-	(junction
 		(at 29.21 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2841,12 +2851,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96bf0bd1-2c30-48cf-9979-7c99684df407")
-	)
-	(junction
-		(at 234.95 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9aa81240-5f6b-4979-bca3-4059d26f109b")
 	)
 	(junction
 		(at 59.69 86.36)
@@ -2883,6 +2887,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca21b83a-9e44-4989-b8aa-39a11b1258fc")
+	)
+	(junction
+		(at 234.95 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc4a9e86-0773-40c8-b720-6374c11940f0")
 	)
 	(junction
 		(at 246.38 111.76)
@@ -3456,16 +3466,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 104.14) (xy 246.38 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4277b696-3a1e-4046-bbcd-dba4f1b8031c")
-	)
-	(wire
-		(pts
 			(xy 71.12 53.34) (xy 71.12 52.07)
 		)
 		(stroke
@@ -3723,6 +3723,16 @@
 			(type default)
 		)
 		(uuid "78c9c89d-1b15-4b6a-a1ff-50c0725c4f90")
+	)
+	(wire
+		(pts
+			(xy 234.95 104.14) (xy 246.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c870314-ff9b-4bb4-9eaa-885563474a50")
 	)
 	(wire
 		(pts
@@ -4652,7 +4662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 88.9 140.97 0)
 			(effects
 				(font
@@ -4698,6 +4708,94 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b96b1e5-2325-4a24-9063-ddabe5daf815")
+		(property "Reference" "C18"
+			(at 238.76 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 238.76 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 235.9152 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71E103KA01D"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fddd921c-af9c-42e7-8186-4d0dc885ea89")
+		)
+		(pin "1"
+			(uuid "e9bada7f-ef18-45bc-ad56-0be29459a474")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5472,7 +5570,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "SW_Push"
 			(at 30.48 146.0499 90)
 			(effects
 				(font
@@ -5611,7 +5709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "402e6e74-d945-4086-a262-ebc28b8488ee")
-		(property "Reference" "IC2"
+		(property "Reference" "U7"
 			(at 196.85 93.726 0)
 			(effects
 				(font
@@ -5808,7 +5906,7 @@
 		(instances
 			(project ""
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "IC2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6835,6 +6933,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 49.53 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c66425-43d7-4803-a75d-9b2288fa8012")
+		(property "Reference" "C23"
+			(at 49.53 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 49.53 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 53.34 81.5848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2056ee08-428b-4976-b2e1-caa509c97c20")
+		)
+		(pin "1"
+			(uuid "6014e3ea-6494-4f99-bf31-c59b7abd28e1")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 148.59 0)
 		(unit 1)
@@ -7033,76 +7199,6 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 234.95 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8da95a97-7b3e-479e-b911-a3cd82dc99f6")
-		(property "Reference" "C18"
-			(at 238.76 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10nF"
-			(at 238.76 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 233.9848 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 234.95 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47f46693-6c97-4f71-aca5-078e2f2bc1cf")
-		)
-		(pin "1"
-			(uuid "412c01f6-7dd2-4e5a-8844-328362e83e1d")
-		)
-		(instances
-			(project "STM32 Microcontroller Board"
-				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7512,7 +7608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 78.74 140.97 0)
 			(effects
 				(font
@@ -7700,21 +7796,21 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 95.25 180)
+		(at 111.76 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d01540aa-4bd8-43f6-852d-ee062c0bf23b")
+		(uuid "cdafd899-64cc-4578-9d4d-65b261c6cb4d")
 		(property "Reference" "C11"
 			(at 115.57 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10nF"
@@ -7723,11 +7819,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 110.7948 91.44 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 112.7252 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,11 +7849,29 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM155R71E103KA01D"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "4d0821bd-01e8-472a-8f98-76d69ee9f102")
+			(uuid "0da99670-1e30-437b-a94e-3d491e3da787")
 		)
 		(pin "1"
-			(uuid "7f52c283-a59c-4e61-882c-3f6b2c8731c6")
+			(uuid "94492ced-cf13-49be-b879-39fbbd3b07d7")
 		)
 		(instances
 			(project "STM32 Microcontroller Board"
@@ -7903,74 +8017,6 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 49.53 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df43bd26-85fa-447b-b050-35e656aad39b")
-		(property "Reference" "C23"
-			(at 49.53 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 49.53 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 53.34 81.5848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, 1kV"
-			(at 49.53 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "04e1cba8-c1cf-4304-9cdd-565a88fccfa1")
-		)
-		(pin "1"
-			(uuid "6bd4b726-effe-4b53-9ac3-5a37f21ad012")
-		)
-		(instances
-			(project "STM32 Microcontroller Board"
-				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C23")
 					(unit 1)
 				)
 			)

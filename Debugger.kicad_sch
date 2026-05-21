@@ -6305,7 +6305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b835ce2-bbc3-4ed5-ae54-c0b757683b48")
-		(property "Reference" "IC1"
+		(property "Reference" "U6"
 			(at 124.968 102.362 0)
 			(effects
 				(font
@@ -6547,7 +6547,7 @@
 		(instances
 			(project ""
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/7972b3b3-0781-42c8-aedd-35cecbf74189"
-					(reference "IC1")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8496,7 +8496,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "SW_Push"
 			(at 237.49 48.2599 90)
 			(effects
 				(font

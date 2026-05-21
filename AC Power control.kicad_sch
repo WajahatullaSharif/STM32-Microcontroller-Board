@@ -5225,7 +5225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 217.17 80.01 0)
 			(effects
 				(font
@@ -5444,7 +5444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce11a5c3-a80a-40d0-9ba8-d80b23233530")
-		(property "Reference" "IC3"
+		(property "Reference" "U8"
 			(at 134.62 49.53 0)
 			(effects
 				(font
@@ -5602,7 +5602,7 @@
 		(instances
 			(project ""
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2e427d26-78ca-4cc9-965e-91a8c72f7160"
-					(reference "IC3")
+					(reference "U8")
 					(unit 1)
 				)
 			)
