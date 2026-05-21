@@ -577,7 +577,7 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -745,10 +745,6 @@
     [
       "2e427d26-78ca-4cc9-965e-91a8c72f7160",
       "AC PWR ctrl & USB FS"
-    ],
-    [
-      "9091ff12-0967-40cb-afdc-ec72d374a9ec",
-      "Power"
     ]
   ],
   "text_variables": {}
