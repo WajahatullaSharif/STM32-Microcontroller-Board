@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "6d320cc0-3a4b-49a3-9943-be7dc0c72006")
 	(paper "A4")
+	(title_block
+		(title "DeskNode-F4")
+		(rev "A")
+		(company "_electronic_projects")
+		(comment 1 "Wajahatulla Sharif")
+		(comment 2 "Designed by ")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
@@ -1425,6 +1432,155 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3742,16 +3898,16 @@
 		(uuid "e4aa49e9-51a9-40d0-aa9c-0755d2c96729")
 	)
 	(junction
-		(at 254 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0952ded3-3b2d-4665-9c27-aefdaf66c1f7")
-	)
-	(junction
 		(at 69.85 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d77e58c-7cd4-4b82-9e8b-bfe856a77c98")
+	)
+	(junction
+		(at 270.51 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c34fdb-9647-42e9-a655-04511fd8ca64")
 	)
 	(junction
 		(at 48.26 71.12)
@@ -3862,12 +4018,6 @@
 		(uuid "b38cd4d6-caaf-4d8a-bfe0-781e2c7140b1")
 	)
 	(junction
-		(at 267.97 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b644a3a4-e666-4274-8541-d3f8147b6ef7")
-	)
-	(junction
 		(at 257.81 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3890,6 +4040,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec9c7daa-bb1f-4a4f-abef-4de3a1134ae8")
+	)
+	(junction
+		(at 254 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fca40b64-cd61-4662-bb3e-1d6f1eb5fda4")
 	)
 	(junction
 		(at 78.74 48.26)
@@ -4169,17 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 95.25) (xy 260.35 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2797d287-d5a9-4d4a-8dde-59ba2bf2235d")
-	)
-	(wire
-		(pts
-			(xy 259.08 100.33) (xy 260.35 100.33)
+			(xy 259.08 100.33) (xy 262.89 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4279,7 +4425,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 102.87) (xy 260.35 102.87)
+			(xy 259.08 102.87) (xy 262.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4319,7 +4465,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 114.3) (xy 267.97 114.3)
+			(xy 273.05 114.3) (xy 270.51 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4359,7 +4505,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 105.41) (xy 257.81 105.41)
+			(xy 262.89 105.41) (xy 257.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4639,7 +4785,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 114.3) (xy 267.97 114.3)
+			(xy 257.81 114.3) (xy 270.51 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4699,7 +4845,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 110.49) (xy 267.97 114.3)
+			(xy 270.51 110.49) (xy 270.51 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4746,6 +4892,16 @@
 			(type default)
 		)
 		(uuid "a243fcce-ea4d-49d9-96e1-99848145b096")
+	)
+	(wire
+		(pts
+			(xy 255.27 95.25) (xy 254 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43d1f7b-a63f-4226-8d8f-65b9a8e82aa5")
 	)
 	(wire
 		(pts
@@ -5089,7 +5245,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 110.49) (xy 270.51 114.3)
+			(xy 273.05 110.49) (xy 273.05 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6711,15 +6867,15 @@
 		(dnp no)
 		(uuid "43fd560a-3fdf-4d31-a3c6-e8145d59bb22")
 		(property "Reference" "J4"
-			(at 259.715 135.89 0)
+			(at 259.842 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Pin"
-			(at 259.715 138.43 0)
+		(property "Value" "F103 SWD"
+			(at 259.842 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7868,6 +8024,93 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/7972b3b3-0781-42c8-aedd-35cecbf74189"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 259.08 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c5259e2-5fcf-48b7-985b-8f9d3e5a6627")
+		(property "Reference" "F1"
+			(at 259.08 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 259.08 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 264.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 259.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NANOSMDC075F-2"
+			(at 259.08 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littlefuse"
+			(at 259.08 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48b4c9c5-a971-45c6-954b-1a074ddfcc2f")
+		)
+		(pin "1"
+			(uuid "2386e6f7-d26d-4c77-b0b2-04b709f7cbbc")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/7972b3b3-0781-42c8-aedd-35cecbf74189"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -9743,7 +9986,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
-		(at 267.97 100.33 0)
+		(at 270.51 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9752,7 +9995,7 @@
 		(dnp no)
 		(uuid "ff041bbb-6d16-4ee0-a65b-9bf05a9d318e")
 		(property "Reference" "J5"
-			(at 267.97 87.63 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9760,7 +10003,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 267.97 90.17 0)
+			(at 270.51 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +10011,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_Micro-B_GCT_USB3076-30-A"
-			(at 264.16 101.6 0)
+			(at 266.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +10020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 101.6 0)
+			(at 266.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9786,7 +10029,7 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
-			(at 267.97 100.33 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +10038,7 @@
 			)
 		)
 		(property "MPN" "USB3076-30-A"
-			(at 267.97 100.33 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

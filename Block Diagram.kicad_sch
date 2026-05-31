@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "b6e6f362-88eb-4ce4-9b63-b4d4bc510dc5")
 	(paper "A4")
+	(title_block
+		(title "DeskNode-F4")
+		(rev "A")
+		(company "_electronic_projects")
+		(comment 1 "Wajahatulla Sharif")
+		(comment 2 "Designed by ")
+	)
 	(lib_symbols)
 	(rectangle
 		(start 211.328 90.17)
