@@ -5745,7 +5745,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 236.22 34.29 0)
 			(effects
 				(font
@@ -5815,7 +5833,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 1%"
+		(property "Description" "RES 1.5K OHM 1% 1/10W 0603"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071K5L"
 			(at 246.38 90.17 0)
 			(effects
 				(font
@@ -6346,7 +6382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
 			(at 148.59 138.43 0)
 			(effects
 				(font
@@ -6365,6 +6401,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 148.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 148.59 138.43 0)
 			(effects
 				(font
@@ -6433,7 +6478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Medium-density performance line Arm-based 32-bit MCU with 64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces"
+		(property "Description" "IC MCU 32BIT 64KB FLASH 48LQFP"
 			(at 102.87 86.36 0)
 			(effects
 				(font
@@ -6489,6 +6534,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6757,7 +6811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "DIODE SCHOTTKY 15V 1A DO214BA"
 			(at 254 82.55 0)
 			(effects
 				(font
@@ -6768,6 +6822,15 @@
 		)
 		(property "MPN" "LSM115JE3-TR13"
 			(at 254 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 254 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,6 +6964,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 260.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 260.35 146.05 0)
 			(effects
 				(font
@@ -7085,7 +7157,7 @@
 				)
 			)
 		)
-		(property "Value" "30pF"
+		(property "Value" "27pF"
 			(at 39.37 101.854 90)
 			(effects
 				(font
@@ -7093,7 +7165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.18 105.7148 0)
 			(effects
 				(font
@@ -7111,8 +7183,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 27PF 50V C0G/NP0 0603"
 			(at 39.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 39.37 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10C270JB8NNNC"
+			(at 39.37 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10000PF 25V X7R 0402"
 			(at 69.85 110.49 0)
 			(effects
 				(font
@@ -7200,6 +7290,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 69.85 110.49 0)
 			(effects
 				(font
@@ -7269,7 +7368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
 			(at 78.74 53.34 0)
 			(effects
 				(font
@@ -7288,6 +7387,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 78.74 53.34 0)
 			(effects
 				(font
@@ -7445,6 +7553,92 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 172.72 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf09f7d-9c3e-4977-87e4-0cbd633a0f8e")
+		(property "Reference" "R21"
+			(at 172.72 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 172.72 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 172.974 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 680 OHM 1% 1/10W 0603"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 172.72 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07680RL"
+			(at 172.72 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de5fb384-b70f-4f0c-88ad-601100544d83")
+		)
+		(pin "1"
+			(uuid "cb5fc91c-0854-4aff-9bd5-afb143dc6ea3")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/7972b3b3-0781-42c8-aedd-35cecbf74189"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 44.45 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7489,7 +7683,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-074K7L"
 			(at 44.45 124.46 0)
 			(effects
 				(font
@@ -7559,7 +7771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 4.7UF 16V X7R 0805"
 			(at 91.44 53.34 0)
 			(effects
 				(font
@@ -7578,6 +7790,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 91.44 53.34 0)
 			(effects
 				(font
@@ -7711,8 +7932,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 55.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 55.88 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 55.88 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +8022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+		(property "Description" "TVS DIODE 5VWM 15VC SOT236"
 			(at 254 100.33 0)
 			(effects
 				(font
@@ -7793,6 +8032,15 @@
 			)
 		)
 		(property "MPN" "USBLC6-2SC6"
+			(at 254 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 254 100.33 0)
 			(effects
 				(font
@@ -7872,8 +8120,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 116.84 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 116.84 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,8 +8271,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603"
+		(property "Description" "RES 22 OHM 1% 1/10W 0603"
 			(at 233.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 233.68 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 233.68 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,7 +8358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "PTC RESET FUSE 6V 750MA 1206"
 			(at 259.08 95.25 0)
 			(effects
 				(font
@@ -8101,6 +8385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 259.08 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48b4c9c5-a971-45c6-954b-1a074ddfcc2f")
 		)
@@ -8111,75 +8404,6 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/7972b3b3-0781-42c8-aedd-35cecbf74189"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 173.99 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c9368a2-c1be-4c48-a185-5e5ff4690aa1")
-		(property "Reference" "R22"
-			(at 172.7199 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220"
-			(at 175.2599 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 174.244 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 173.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6dd45f89-b792-49f4-897d-0987d27fe03c")
-		)
-		(pin "1"
-			(uuid "24511e61-5655-4de5-8a99-7e8d1bbb86c6")
-		)
-		(instances
-			(project "STM32 Microcontroller Board"
-				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/7972b3b3-0781-42c8-aedd-35cecbf74189"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8315,6 +8539,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 50.8 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ab43270-3e04-4aac-8c8f-98f8a548dfd3")
 		)
@@ -8442,7 +8675,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-074K7L"
 			(at 44.45 134.62 0)
 			(effects
 				(font
@@ -8599,6 +8850,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 173.99 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a540aa47-52b4-4050-87cc-e7ac5e2ff8d5")
+		(property "Reference" "R22"
+			(at 173.99 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 173.99 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 174.244 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 680 OHM 1% 1/10W 0603"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 173.99 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07680RL"
+			(at 173.99 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63d65bd7-f7ee-4c8a-bc23-6ab7d5eb6717")
+		)
+		(pin "1"
+			(uuid "4ccce7e7-44f0-43d6-8f8e-a79cf000ded7")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/7972b3b3-0781-42c8-aedd-35cecbf74189"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
 		(at 236.22 46.99 90)
 		(unit 1)
@@ -8644,7 +8981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
 			(at 236.22 46.99 0)
 			(effects
 				(font
@@ -8654,6 +8991,15 @@
 			)
 		)
 		(property "MPN" "PTS645SK50SMTR92 LFS"
+			(at 236.22 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 236.22 46.99 90)
 			(effects
 				(font
@@ -8789,7 +9135,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+			(at 257.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 257.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
 			(at 257.81 110.49 0)
 			(effects
 				(font
@@ -8831,7 +9195,7 @@
 				)
 			)
 		)
-		(property "Value" "30pF"
+		(property "Value" "27pF"
 			(at 39.37 85.09 90)
 			(effects
 				(font
@@ -8839,7 +9203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.18 89.2048 0)
 			(effects
 				(font
@@ -8857,8 +9221,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 27PF 50V C0G/NP0 0603"
 			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 39.37 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10C270JB8NNNC"
+			(at 39.37 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,8 +9439,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603"
+		(property "Description" "RES 22 OHM 1% 1/10W 0603"
 			(at 233.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 233.68 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 233.68 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9593,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
 			(at 128.27 134.62 0)
 			(effects
 				(font
@@ -9329,7 +9747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
 			(at 257.81 46.99 0)
 			(effects
 				(font
@@ -9348,6 +9766,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 257.81 46.99 0)
 			(effects
 				(font
@@ -9547,7 +9974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -9566,6 +9993,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -9635,7 +10071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
 			(at 167.64 77.47 0)
 			(effects
 				(font
@@ -9662,6 +10098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bc5d3f75-50c3-4177-ad93-22eb58da03ed")
 		)
@@ -9672,74 +10117,6 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/7972b3b3-0781-42c8-aedd-35cecbf74189"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 172.72 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0eeb12f-2693-41c7-8121-f91e171bac7a")
-		(property "Reference" "R21"
-			(at 172.72 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 172.72 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 172.974 92.964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 172.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e7dd2e5-dcdf-4d54-ac2e-274d5568d9f1")
-		)
-		(pin "1"
-			(uuid "51db0229-3a65-4c4e-adab-7f90012f7a1b")
-		)
-		(instances
-			(project "STM32 Microcontroller Board"
-				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/7972b3b3-0781-42c8-aedd-35cecbf74189"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -9789,7 +10166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 1 and 3"
+		(property "Description" "LED GREEN/RED DIFFUSED 4PLCC SMD"
 			(at 190.5 107.95 0)
 			(effects
 				(font
@@ -9799,6 +10176,15 @@
 			)
 		)
 		(property "MPN" "LTST-E682KRKGWT"
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 190.5 107.95 0)
 			(effects
 				(font
@@ -9872,8 +10258,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 55.88 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 55.88 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +10346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 1UF 10V X7R 0603"
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -9961,6 +10365,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -10010,7 +10423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_GCT_USB3076-30-A"
+		(property "Footprint" "footprints:USB_Micro-B_GCT_USB3076-30-A"
 			(at 266.7 101.6 0)
 			(effects
 				(font
@@ -10028,7 +10441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Micro Type B connector"
+		(property "Description" "MICRO B SKT, BOTTOM-SMT, R/A, 30"
 			(at 270.51 100.33 0)
 			(effects
 				(font
@@ -10038,6 +10451,15 @@
 			)
 		)
 		(property "MPN" "USB3076-30-A"
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 270.51 100.33 0)
 			(effects
 				(font

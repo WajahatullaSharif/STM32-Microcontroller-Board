@@ -8,4 +8,5 @@
   (lib (name "SMBJ15A")(type "KiCad")(uri "${KIPRJMOD}/symbols/SMBJ15A.kicad_sym")(options "")(descr ""))
   (lib (name "ULN2803CDWR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ULN2803CDWR.kicad_sym")(options "")(descr ""))
   (lib (name "MCP1825S-3302EEB")(type "KiCad")(uri "${KIPRJMOD}/symbols/MCP1825S-3302EEB.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-250-18-36B2-CTY-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ECS-250-18-36B2-CTY-TR.kicad_sym")(options "")(descr ""))
 )

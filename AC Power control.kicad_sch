@@ -2969,6 +2969,16 @@
 		)
 		(uuid "bfc1c0a3-48ac-428e-92ba-71a6aa7f6eb8")
 	)
+	(text "0.74mA"
+		(exclude_from_sim no)
+		(at 219.71 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4e8ad04-f1ff-4bf2-b7f4-c318b70af4e9")
+	)
 	(junction
 		(at 85.09 102.87)
 		(diameter 0)
@@ -2986,6 +2996,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "270d5a7a-ba0a-4c6b-977b-52562b5312ed")
+	)
+	(junction
+		(at 234.95 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c96f289-9c78-4343-9eb7-2d8682ed08ed")
 	)
 	(junction
 		(at 234.95 86.36)
@@ -3052,12 +3068,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be068803-134e-4f1a-af6e-ac69f7556408")
-	)
-	(junction
-		(at 234.95 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf2f8065-268a-4b87-bd71-b0d41da60faf")
 	)
 	(junction
 		(at 62.23 72.39)
@@ -3275,6 +3285,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 74.93) (xy 226.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318acb24-99f6-482b-b11f-ee9f2e642fd0")
+	)
+	(wire
+		(pts
 			(xy 228.6 97.79) (xy 234.95 97.79)
 		)
 		(stroke
@@ -3415,16 +3435,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 80.01) (xy 224.79 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f09df27-97bb-4af4-8c01-f26a410540e9")
-	)
-	(wire
-		(pts
 			(xy 259.08 113.03) (xy 256.54 113.03)
 		)
 		(stroke
@@ -3495,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 80.01) (xy 217.17 80.01)
+			(xy 215.9 80.01) (xy 218.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4340,6 +4350,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "278f3936-99eb-4c3f-bd1e-592bbdcb26ba")
 		)
@@ -4397,7 +4416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "PTC RESET FUSE 6V 750MA 1206"
 			(at 243.84 86.36 0)
 			(effects
 				(font
@@ -4416,6 +4435,15 @@
 			)
 		)
 		(property "Manufacturer" "Littlefuse"
+			(at 243.84 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 243.84 86.36 90)
 			(effects
 				(font
@@ -4614,8 +4642,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603"
+		(property "Description" "RES 22 OHM 1% 1/10W 0603"
 			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 224.79 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 224.79 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4730,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 62.23 93.98 0)
 			(effects
 				(font
@@ -4776,7 +4840,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 224.79 69.85 0)
+		(at 226.06 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4785,7 +4849,7 @@
 		(fields_autoplaced yes)
 		(uuid "3610f6fe-f2a0-4c56-8145-3c7dd26bf63b")
 		(property "Reference" "#PWR090"
-			(at 224.79 73.66 0)
+			(at 226.06 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4858,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 224.79 64.77 0)
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 69.85 0)
+			(at 226.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 69.85 0)
+			(at 226.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 224.79 69.85 0)
+			(at 226.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4950,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 107.95 93.98 0)
 			(effects
 				(font
@@ -4956,7 +5038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "DIODE SCHOTTKY 15V 1A DO214BA"
 			(at 234.95 76.2 0)
 			(effects
 				(font
@@ -4967,6 +5049,15 @@
 		)
 		(property "MPN" "LSM115JE3-TR13"
 			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 234.95 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +5126,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 54.61 93.98 0)
 			(effects
 				(font
@@ -5054,73 +5163,6 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2e427d26-78ca-4cc9-965e-91a8c72f7160"
 					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 234.95 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "513137c4-ed5c-4701-b918-667efb92a05c")
-		(property "Reference" "TP10"
-			(at 240.03 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 240.03 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 234.95 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 234.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82f21aac-24be-4dd8-b5db-fe26bd372e8a")
-		)
-		(instances
-			(project "STM32 Microcontroller Board"
-				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2e427d26-78ca-4cc9-965e-91a8c72f7160"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5172,7 +5214,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 85.09 93.98 0)
 			(effects
 				(font
@@ -5197,17 +5257,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 224.79 73.66 0)
+		(lib_id "Connector:TestPoint")
+		(at 234.95 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ba1a64b-a77e-404f-840a-d9900fabd38f")
-		(property "Reference" "R63"
-			(at 227.33 72.3899 0)
+		(uuid "6930096c-6ffd-4297-ab2d-b44a7f915e04")
+		(property "Reference" "TP10"
+			(at 240.03 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,8 +5275,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 227.33 74.9299 0)
+		(property "Value" "5V"
+			(at 240.03 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,8 +5284,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 225.806 73.914 90)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 234.95 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 73.66 0)
+			(at 234.95 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,8 +5302,111 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 10%, 0.1W"
-			(at 224.79 73.66 0)
+		(property "Description" "test point"
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5001"
+			(at 234.95 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 234.95 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9096ef41-2dbb-4764-9f37-d78b0c0afa93")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2e427d26-78ca-4cc9-965e-91a8c72f7160"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ba1a64b-a77e-404f-840a-d9900fabd38f")
+		(property "Reference" "R63"
+			(at 228.6 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 228.6 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.076 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 226.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 226.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 226.06 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,6 +5484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b9015d2-d254-42c2-ae15-1cbf4b22a734")
 		)
@@ -5328,6 +5500,100 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2e427d26-78ca-4cc9-965e-91a8c72f7160"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 222.25 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a4eb15c-8c29-4f70-a372-8470d2847a5c")
+		(property "Reference" "D12"
+			(at 218.186 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Blue LED"
+			(at 220.472 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE CLEAR 2SMD"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APT2012LVBC/D"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654bddf3-fdcf-4935-97c5-ecaf464fbc63")
+		)
+		(pin "2"
+			(uuid "952c8c91-524f-47bc-9d85-a0e32d374727")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2e427d26-78ca-4cc9-965e-91a8c72f7160"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5379,7 +5645,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 100.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 100.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -5449,7 +5733,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 92.71 93.98 0)
 			(effects
 				(font
@@ -5585,7 +5887,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 69.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 69.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 69.85 93.98 0)
 			(effects
 				(font
@@ -5657,7 +5977,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+		(property "Description" "TVS DIODE 5VWM 15VC SOT236"
+			(at 240.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 240.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
 			(at 240.03 97.79 0)
 			(effects
 				(font
@@ -5760,83 +6098,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 220.98 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad9253fa-ee48-43a8-9785-e163346a8c66")
-		(property "Reference" "D12"
-			(at 219.3925 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 219.3925 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 220.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 220.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5cdc72f-2e13-497e-b382-e498c0625f6a")
-		)
-		(pin "2"
-			(uuid "2c34a23e-da18-49d3-9840-daf7d5bb4218")
-		)
-		(instances
-			(project "STM32 Microcontroller Board"
-				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2e427d26-78ca-4cc9-965e-91a8c72f7160"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 243.84 107.95 180)
 		(unit 1)
@@ -5881,7 +6142,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
 			(at 243.84 107.95 0)
 			(effects
 				(font
@@ -5923,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Value" "USB FS"
+		(property "Value" "USB_B_Micro"
 			(at 256.54 87.63 0)
 			(effects
 				(font
@@ -5931,7 +6210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_GCT_USB3076-30-A"
+		(property "Footprint" "footprints:USB_Micro-B_GCT_USB3076-30-A"
 			(at 252.73 99.06 0)
 			(effects
 				(font
@@ -5949,7 +6228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Micro Type B connector"
+		(property "Description" "MICRO B SKT, BOTTOM-SMT, R/A, 30"
 			(at 256.54 97.79 0)
 			(effects
 				(font
@@ -5959,6 +6238,15 @@
 			)
 		)
 		(property "MPN" "USB3076-30-A"
+			(at 256.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 256.54 97.79 0)
 			(effects
 				(font
@@ -6096,6 +6384,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6280,7 +6577,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 77.47 93.98 0)
 			(effects
 				(font
@@ -6423,6 +6738,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "6ae32e61-ba50-455d-92ae-82760ac02963")
 		)
@@ -6506,8 +6830,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603"
+		(property "Description" "RES 22 OHM 1% 1/10W 0603"
 			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 224.79 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 224.79 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)

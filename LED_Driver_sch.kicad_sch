@@ -4183,8 +4183,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 1%, 0.1W"
+		(property "Description" "RES 2.2K OHM 1% 1/10W 0603"
 			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 185.42 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-072K2L"
+			(at 185.42 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "MOSFET N-CH 30V 5A MICRO3/SOT23"
 			(at 172.72 66.04 0)
 			(effects
 				(font
@@ -4290,6 +4308,15 @@
 			)
 		)
 		(property "MPN" "IRLML6344TRPBF"
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 172.72 66.04 0)
 			(effects
 				(font
@@ -4362,7 +4389,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 5%, 0.1W"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
 			(at 207.01 76.2 0)
 			(effects
 				(font
@@ -4434,7 +4479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Conn Wire to Board HDR 4 POS 3.96mm Solder RA Thru-Hole Box"
+		(property "Description" "CONN HEADER R/A 4POS 3.96MM"
 			(at 52.07 59.69 0)
 			(effects
 				(font
@@ -4490,6 +4535,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4559,7 +4613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -4578,6 +4632,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -4663,6 +4726,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 236.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "19a62be1-8686-4465-b82d-9f52480e5d6c")
 		)
@@ -4733,7 +4805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "MOSFET N-CH 30V 5A MICRO3/SOT23"
 			(at 214.63 66.04 0)
 			(effects
 				(font
@@ -4770,6 +4842,15 @@
 			)
 		)
 		(property "MPN" "IRLML6344TRPBF"
+			(at 214.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 214.63 66.04 0)
 			(effects
 				(font
@@ -4840,8 +4921,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 5%, 0.1W"
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
 			(at 200.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 200.66 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 200.66 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,8 +5073,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 5%, 0.1W"
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
 			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 158.75 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 158.75 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 1UF 50V X7R 0603"
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -5063,6 +5180,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -5196,8 +5322,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 5%, 0.1W"
+		(property "Description" "RES 100 OHM 1% 1/10W 0603"
 			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 245.11 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 245.11 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5410,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "use 0603, 10%, X7R, 16V or 25V"
+		(property "Description" "CAP CER 0.47UF 25V X7R 0603"
+			(at 212.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 212.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B474KA8NFNC"
 			(at 212.09 132.08 0)
 			(effects
 				(font
@@ -5400,7 +5562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
+		(property "Description" "MOSFET P-CH 30V 13A 8SOIC"
 			(at 53.34 123.19 0)
 			(effects
 				(font
@@ -5429,6 +5591,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 68.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 53.34 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FDS6679AZ"
+			(at 53.34 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
 			(at 213.36 109.22 0)
 			(effects
 				(font
@@ -5519,6 +5699,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 213.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 213.36 109.22 0)
 			(effects
 				(font
@@ -5588,7 +5777,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 5%, 0.1W"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+			(at 53.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 53.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
 			(at 53.34 130.81 0)
 			(effects
 				(font
@@ -5640,7 +5847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 176.276 132.334 90)
 			(effects
 				(font
@@ -5658,7 +5865,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 1206, 1%, 5W"
+		(property "Description" "RES 0.02 OHM 1% 3W 2512"
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRA2512-FZ-R020ELF"
 			(at 175.26 132.08 0)
 			(effects
 				(font
@@ -5794,7 +6019,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 5%, 0.1W"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
 			(at 250.19 76.2 0)
 			(effects
 				(font
@@ -5930,7 +6173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM 100UF 20% 25V SMD"
 			(at 99.06 127 0)
 			(effects
 				(font
@@ -5949,6 +6192,15 @@
 			)
 		)
 		(property "Manufacturer" "Nichicon"
+			(at 99.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 99.06 127 0)
 			(effects
 				(font
@@ -6018,7 +6270,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "use 0603, 10%, X7R, 16V or 25V"
+		(property "Description" "CAP CER 0.47UF 25V X7R 0603"
+			(at 194.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 194.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B474KA8NFNC"
 			(at 194.31 132.08 0)
 			(effects
 				(font
@@ -6286,7 +6556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE BLACK"
 			(at 99.06 120.65 0)
 			(effects
 				(font
@@ -6296,6 +6566,15 @@
 			)
 		)
 		(property "MPN" "5001"
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 99.06 120.65 0)
 			(effects
 				(font
@@ -6491,7 +6770,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 1%, 0.1W"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 252.73 146.05 0)
 			(effects
 				(font
@@ -6561,7 +6858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 1UF 10V X7R 0603"
 			(at 227.33 109.22 0)
 			(effects
 				(font
@@ -6580,6 +6877,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 227.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 227.33 109.22 0)
 			(effects
 				(font
@@ -6649,7 +6955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM 680UF 20% 25V SMD"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -6668,6 +6974,15 @@
 			)
 		)
 		(property "Manufacturer" "Nichicon"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -6802,7 +7117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -6821,6 +7136,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -6897,6 +7221,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 30.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "567243e6-4a27-4f6e-8cf5-df8b7118346b")
 		)
@@ -6961,7 +7294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE BLACK"
 			(at 99.06 135.89 0)
 			(effects
 				(font
@@ -6972,6 +7305,15 @@
 		)
 		(property "MPN" "5001"
 			(at 99.06 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7418,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "90k"
+		(property "Value" "90.9k"
 			(at 255.27 134.6199 0)
 			(effects
 				(font
@@ -7103,7 +7445,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 1%, 0.1W"
+		(property "Description" "RES 90.9K OHM 1% 1/10W 0603"
+			(at 252.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 252.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0790K9L"
 			(at 252.73 133.35 0)
 			(effects
 				(font
@@ -7153,7 +7513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2920_7451Metric"
+		(property "Footprint" "footprints:Fuse_2920_7451Metric"
 			(at 49.53 119.38 0)
 			(effects
 				(font
@@ -7172,7 +7532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "PTC RESET FUSE 6.0A 24V 2920"
 			(at 44.45 120.65 0)
 			(effects
 				(font
@@ -7181,7 +7541,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "2920L600/24SL"
+		(property "MPN" "2920L600/24SLER"
 			(at 44.45 120.65 90)
 			(effects
 				(font
@@ -7191,6 +7551,15 @@
 			)
 		)
 		(property "Manufacturer" "Littlefuse"
+			(at 44.45 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 44.45 120.65 90)
 			(effects
 				(font
@@ -7262,7 +7631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Littelfuse SMBJ15A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+		(property "Description" "TVS DIODE 15VWM 24.4VC DO214AA"
 			(at 63.5 120.65 0)
 			(effects
 				(font
@@ -7318,6 +7687,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 63.5 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7380,8 +7758,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 1%, 0.1W"
+		(property "Description" "RES 2.2K OHM 1% 1/10W 0603"
 			(at 203.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 203.2 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-072K2L"
+			(at 203.2 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,7 +7846,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Use 0603, 5%, 0.1W"
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -7520,7 +7934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "MOSFET N-CH 30V 5A MICRO3/SOT23"
 			(at 256.54 66.04 0)
 			(effects
 				(font
@@ -7557,6 +7971,15 @@
 			)
 		)
 		(property "MPN" "IRLML6344TRPBF"
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 256.54 66.04 0)
 			(effects
 				(font
@@ -7629,7 +8052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 1UF 50V X7R 0603"
 			(at 76.2 127 0)
 			(effects
 				(font
@@ -7648,6 +8071,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 76.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 76.2 127 0)
 			(effects
 				(font
