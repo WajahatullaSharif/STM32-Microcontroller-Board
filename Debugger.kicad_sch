@@ -4068,10 +4068,6 @@
 		(uuid "0b40ca9e-e0d0-4d35-a667-53e2766bc3d7")
 	)
 	(no_connect
-		(at 96.52 114.3)
-		(uuid "28c7e7e3-6edf-41d8-9c73-80a9f473a774")
-	)
-	(no_connect
 		(at 130.81 127)
 		(uuid "454cb443-1a74-4d85-811d-b7fbbee0cda4")
 	)
@@ -4082,10 +4078,6 @@
 	(no_connect
 		(at 123.19 69.85)
 		(uuid "5a6de319-c5af-47b6-8699-c95fbf658959")
-	)
-	(no_connect
-		(at 110.49 127)
-		(uuid "6b72d2e7-37bc-496b-a57e-b06a9a9f99af")
 	)
 	(no_connect
 		(at 120.65 127)
@@ -4100,10 +4092,6 @@
 		(uuid "8680109f-0848-43e6-a8ac-e6cf2d1afca7")
 	)
 	(no_connect
-		(at 156.21 109.22)
-		(uuid "8d1d4de6-f8dd-4653-a4af-4c0dda45f776")
-	)
-	(no_connect
 		(at 96.52 93.98)
 		(uuid "92e52197-ee3c-4531-b83e-d3c4e5098736")
 	)
@@ -4114,6 +4102,10 @@
 	(no_connect
 		(at 125.73 69.85)
 		(uuid "a50eda40-81f2-4ad7-ad31-8f70dfdd2504")
+	)
+	(no_connect
+		(at 156.21 114.3)
+		(uuid "a593ac22-7a45-4f2f-9780-93eac4370cb1")
 	)
 	(no_connect
 		(at 133.35 127)
@@ -4155,7 +4147,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 114.3) (xy 152.4 114.3)
+			(xy 156.21 114.3) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4222,6 +4214,16 @@
 			(type default)
 		)
 		(uuid "105f39ba-8a63-488e-a5e6-d290d6b5dec3")
+	)
+	(wire
+		(pts
+			(xy 110.49 128.27) (xy 110.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b85aa9-08f2-487b-8f50-3a287fbecf0f")
 	)
 	(wire
 		(pts
@@ -4715,6 +4717,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 114.3) (xy 96.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a893de5-95b6-4245-b128-e977ced9629e")
+	)
+	(wire
+		(pts
 			(xy 63.5 99.06) (xy 63.5 106.68)
 		)
 		(stroke
@@ -4735,7 +4747,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 156.21 109.22)
+			(xy 152.4 109.22) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5523,16 +5535,27 @@
 		)
 		(uuid "ff7da80c-d113-4d4c-be77-f3b50add42fd")
 	)
+	(hierarchical_label "TX"
+		(shape bidirectional)
+		(at 95.25 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20d89149-20f6-4456-8f46-a88813b984e8")
+	)
 	(hierarchical_label "T_SWDIO"
 		(shape bidirectional)
-		(at 154.94 114.3 0)
+		(at 154.94 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "57c1a59c-caaf-41ce-b0cc-f2ad20feb7fd")
+		(uuid "760c42a4-41a8-4496-aa4e-5418dab6ea36")
 	)
 	(hierarchical_label "T_SWCLK"
 		(shape bidirectional)
@@ -5566,6 +5589,17 @@
 			(justify right)
 		)
 		(uuid "c2ffc5df-a8bd-49d4-b514-b40f169c8d9a")
+	)
+	(hierarchical_label "RX"
+		(shape bidirectional)
+		(at 110.49 128.27 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb0c8103-96ce-47d8-91dc-61f0ce4154ad")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8321,10 +8355,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c5259e2-5fcf-48b7-985b-8f9d3e5a6627")
 		(property "Reference" "F1"
-			(at 259.08 88.9 90)
+			(at 259.08 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +8365,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 259.08 91.44 90)
+			(at 259.08 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,12 +8401,11 @@
 			)
 		)
 		(property "MPN" "NANOSMDC075F-2"
-			(at 259.08 95.25 90)
+			(at 259.08 92.964 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Littlefuse"
@@ -8483,7 +8515,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90babea9-40d2-4292-8d1f-e2f2d2969d93")
 		(property "Reference" "Y1"
 			(at 54.61 96.5199 90)
@@ -8531,12 +8562,11 @@
 			)
 		)
 		(property "MPN" "ECS-80-18-5PX-TR"
-			(at 50.8 97.79 90)
+			(at 52.324 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
@@ -10408,7 +10438,7 @@
 		(dnp no)
 		(uuid "ff041bbb-6d16-4ee0-a65b-9bf05a9d318e")
 		(property "Reference" "J5"
-			(at 270.51 87.63 0)
+			(at 270.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,7 +10446,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 270.51 90.17 0)
+			(at 270.51 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,12 +10481,11 @@
 			)
 		)
 		(property "MPN" "USB3076-30-A"
-			(at 270.51 100.33 0)
+			(at 270.764 91.186 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" ""

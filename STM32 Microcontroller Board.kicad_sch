@@ -148,6 +148,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 135.89) (xy 187.96 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690df855-8e61-46ae-946a-574b677f970e")
+	)
+	(wire
+		(pts
 			(xy 163.83 91.44) (xy 187.96 91.44)
 		)
 		(stroke
@@ -225,6 +235,16 @@
 			(type default)
 		)
 		(uuid "a0addced-44b0-41b6-98ee-52b08a50517c")
+	)
+	(wire
+		(pts
+			(xy 163.83 133.35) (xy 187.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a356d4fa-38e7-483d-b057-8237646695ab")
 	)
 	(wire
 		(pts
@@ -765,8 +785,8 @@
 		)
 	)
 	(sheet
-		(at 187.96 118.11)
-		(size 16.51 16.51)
+		(at 187.96 119.634)
+		(size 16.51 18.796)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -781,7 +801,7 @@
 		)
 		(uuid "7972b3b3-0781-42c8-aedd-35cecbf74189")
 		(property "Sheetname" "Debugger"
-			(at 187.96 117.3984 0)
+			(at 187.96 118.9224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +810,7 @@
 			)
 		)
 		(property "Sheetfile" "Debugger.kicad_sch"
-			(at 187.96 135.2046 0)
+			(at 187.96 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,6 +851,26 @@
 		(pin "T_SWO" bidirectional
 			(at 187.96 130.81 180)
 			(uuid "09a7c423-e598-4241-be63-450105246072")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" bidirectional
+			(at 187.96 133.35 180)
+			(uuid "6ae80ca9-c720-465a-b8d7-84f06e9b2137")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" bidirectional
+			(at 187.96 135.89 180)
+			(uuid "2fc45b2c-8113-463b-aa16-188e7abc5fc8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,6 +1261,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RX" bidirectional
+			(at 163.83 135.89 0)
+			(uuid "ba147f23-1159-40c0-911f-eb0a2dfee108")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX" bidirectional
+			(at 163.83 133.35 0)
+			(uuid "baf6692e-0c0d-41cf-afd4-8ffa3961145c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

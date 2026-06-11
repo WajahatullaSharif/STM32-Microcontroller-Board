@@ -2937,6 +2937,17 @@
 		)
 		(uuid "5bf5ea89-04a8-4778-aba4-16e7ff5ec897")
 	)
+	(text "ECS-250-18-36B2-CTY-TR"
+		(exclude_from_sim no)
+		(at 148.336 114.046 90)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 72 0 0 1)
+			)
+		)
+		(uuid "6ed3dc18-b8e1-4a17-b4a3-4b68d25cf71c")
+	)
 	(text "PHY Bootstrap table"
 		(exclude_from_sim no)
 		(at 49.784 158.496 0)
@@ -8326,10 +8337,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4e17b8f9-3199-47f8-84aa-644e82e7c45e")
 		(property "Reference" "J6"
-			(at 39.37 24.13 0)
+			(at 39.37 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +8347,7 @@
 			)
 		)
 		(property "Value" "Ethernet"
-			(at 39.37 26.67 0)
+			(at 39.37 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,12 +8423,11 @@
 			)
 		)
 		(property "MPN" "RJMG1S8008101BR"
-			(at 39.37 44.45 0)
+			(at 39.624 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
@@ -10095,7 +10104,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e5d3d27-35db-4dfc-9728-589fbe416bb7")
 		(property "Reference" "Y2"
 			(at 158.75 112.0139 90)
@@ -10191,7 +10199,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -10355,7 +10362,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a712ba5d-3e52-4a9d-8dc7-7fc2a732392f")
 		(property "Reference" "FB2"
 			(at 115.57 77.5207 0)
@@ -10403,12 +10409,11 @@
 			)
 		)
 		(property "MPN" "MPZ1608S601ATA00"
-			(at 111.76 78.74 0)
+			(at 120.65 82.296 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
