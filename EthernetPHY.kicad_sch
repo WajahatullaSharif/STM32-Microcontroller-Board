@@ -966,6 +966,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -1454,192 +1710,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ECS-250-18-36B2-CTY-TR:ECS-250-18-36B2-CTY-TR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y2"
-				(at 19.812 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "25MHz"
-				(at 19.812 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprints:ECS2501836B2CTYTR"
-				(at 29.21 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/122/ECX_2236B2-2400583.pdf"
-				(at 29.21 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Crystals ESR 50,FREQ 25,STABILITY +/-30ppm,TOLERANCE +/-10ppm,CL 18pF,AGING +/-2 ppm ,-30 C 85 C,100uW in typical (Max 200uW), 2.50mm x 2.00mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.6"
-				(at 29.21 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "520-250-18-36B2CTYTR"
-				(at 29.21 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-250-18-36B2-CTY-TR?qs=aP1CjGhiNiFniXuPEM212w%3D%3D"
-				(at 29.21 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "ECS"
-				(at 29.21 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "MPN" "ECS-250-18-36B2-CTY-TR"
-				(at 29.21 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ECS-250-18-36B2-CTY-TR_1_1"
-				(rectangle
-					(start 12.065 2.54)
-					(end 28.575 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 0)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -2.54 0)
-					(length 5.08)
-					(name "IN/OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 0 180)
-					(length 5.08)
-					(name "OUT/IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -2.54 180)
-					(length 5.08)
-					(name "GND_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2937,13 +3007,13 @@
 		)
 		(uuid "5bf5ea89-04a8-4778-aba4-16e7ff5ec897")
 	)
-	(text "ECS-250-18-36B2-CTY-TR"
+	(text "ECS2501836B2CTY"
 		(exclude_from_sim no)
-		(at 148.336 114.046 90)
+		(at 165.862 124.714 0)
 		(effects
 			(font
-				(size 0.889 0.889)
-				(color 72 0 0 1)
+				(size 1.27 1.27)
+				(color 0 132 132 1)
 			)
 		)
 		(uuid "6ed3dc18-b8e1-4a17-b4a3-4b68d25cf71c")
@@ -2971,18 +3041,6 @@
 		)
 		(uuid "8de819de-a871-4dc6-83d8-29fe608e06b3")
 	)
-	(text "ETH Reset and Status LEDs"
-		(exclude_from_sim no)
-		(at 20.32 103.886 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.2858)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b491228-325e-4420-a728-50dae06797b9")
-	)
 	(text "1.3mA"
 		(exclude_from_sim no)
 		(at 77.978 136.398 0)
@@ -3002,6 +3060,17 @@
 			)
 		)
 		(uuid "b79f257b-48aa-4fa5-b929-03135b1ea39d")
+	)
+	(text "ETH Reset and Status LEDs"
+		(exclude_from_sim no)
+		(at 20.32 103.378 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8860ecd-bcb9-45fc-ae08-cb415821c6c9")
 	)
 	(junction
 		(at 111.76 86.36)
@@ -3028,16 +3097,28 @@
 		(uuid "1f13ab17-c46f-4f45-96b0-18b33fe7ccd2")
 	)
 	(junction
-		(at 154.94 128.27)
+		(at 72.39 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38eb4b80-c001-414c-b189-73ab3edbef45")
+		(uuid "289b25a6-5009-4987-93be-280e4f1f70c6")
 	)
 	(junction
-		(at 67.31 36.83)
+		(at 152.4 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "449a916b-273c-4717-9b0c-e4031e343e43")
+		(uuid "2b33d97c-6190-49eb-b492-7e3ec1baf625")
+	)
+	(junction
+		(at 67.31 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34abf5a8-5c16-4b0a-b658-a62a231321ec")
+	)
+	(junction
+		(at 129.54 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "410ef20b-9bf1-4d7c-a37e-6bda54670b6b")
 	)
 	(junction
 		(at 134.62 86.36)
@@ -3082,6 +3163,12 @@
 		(uuid "657b47ef-aa83-4446-b3be-079160fee3bf")
 	)
 	(junction
+		(at 129.54 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65c86e81-f58e-494e-8f4b-19b5b788274e")
+	)
+	(junction
 		(at 58.42 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3106,18 +3193,6 @@
 		(uuid "76bbb57e-e582-4db7-97d7-ca1b0664e59e")
 	)
 	(junction
-		(at 64.77 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78a5fff6-a3a3-4d07-a88d-89c93bb16f69")
-	)
-	(junction
-		(at 74.93 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bfac6ab-aaa4-4755-bffe-f2eb3820cecb")
-	)
-	(junction
 		(at 27.94 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3128,6 +3203,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a0b9209-cee0-4449-9f57-0acdd42fef70")
+	)
+	(junction
+		(at 74.93 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a37010b7-cd6f-4d10-b736-d81045779596")
 	)
 	(junction
 		(at 58.42 81.28)
@@ -3160,16 +3241,16 @@
 		(uuid "b1eadd56-bf62-4dbd-a0e6-902feb4bae34")
 	)
 	(junction
-		(at 72.39 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2575775-d97b-4b9e-9933-7c3d6af332b5")
-	)
-	(junction
 		(at 191.77 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca21b83a-9e44-4989-b8aa-39a11b1258fc")
+	)
+	(junction
+		(at 64.77 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3816fe-b71d-45b2-b00b-270a5daa6cfb")
 	)
 	(junction
 		(at 234.95 99.06)
@@ -3206,12 +3287,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e385b20e-9e31-4799-afce-10adfa7a43df")
-	)
-	(junction
-		(at 129.54 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9a663ed-50f5-40b5-b3a2-e3d92b0c0db5")
 	)
 	(junction
 		(at 233.68 88.9)
@@ -3263,16 +3338,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 127) (xy 154.94 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0025e7f4-cb2b-4144-ba0c-d78d1b469887")
-	)
-	(wire
-		(pts
 			(xy 187.96 54.61) (xy 187.96 55.88)
 		)
 		(stroke
@@ -3283,16 +3348,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 118.11) (xy 129.54 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0181c441-3be7-4f23-827e-bf94e139c04d")
-	)
-	(wire
-		(pts
 			(xy 27.94 125.73) (xy 27.94 129.54)
 		)
 		(stroke
@@ -3300,6 +3355,16 @@
 			(type default)
 		)
 		(uuid "018f04b3-a8ae-478e-8243-739447b67d1d")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028e7208-2043-4a41-b2b2-5fa5cf18ef19")
 	)
 	(wire
 		(pts
@@ -3320,6 +3385,16 @@
 			(type default)
 		)
 		(uuid "053dd1eb-a139-4eac-839b-2a16794edc07")
+	)
+	(wire
+		(pts
+			(xy 67.31 39.37) (xy 77.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077fc79c-b79e-448d-8a57-217fec33204d")
 	)
 	(wire
 		(pts
@@ -3363,13 +3438,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 36.83) (xy 67.31 48.26)
+			(xy 72.39 36.83) (xy 72.39 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bdc5786-798a-415f-8d9c-6ffb6ec435c8")
+		(uuid "0c9e78c8-96fa-4ecf-ba9e-ac1f3d7051fa")
 	)
 	(wire
 		(pts
@@ -3380,16 +3455,6 @@
 			(type default)
 		)
 		(uuid "11a4f5d2-ea61-44b1-872b-8eaba1d3dcb7")
-	)
-	(wire
-		(pts
-			(xy 74.93 44.45) (xy 77.47 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "125f026e-8504-4ce8-abac-6eaab840cf10")
 	)
 	(wire
 		(pts
@@ -3433,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 36.83) (xy 52.07 36.83)
+			(xy 52.07 36.83) (xy 72.39 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3480,6 +3545,16 @@
 			(type default)
 		)
 		(uuid "20417cd5-74a6-44c5-acf7-8ddb74d47ebd")
+	)
+	(wire
+		(pts
+			(xy 129.54 116.84) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2088158c-1281-4180-8575-1ef413224a18")
 	)
 	(wire
 		(pts
@@ -3643,6 +3718,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 31.75) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2b0f89-e90a-46dd-a1a6-b3c3b5daedfc")
+	)
+	(wire
+		(pts
 			(xy 146.05 105.41) (xy 144.78 105.41)
 		)
 		(stroke
@@ -3653,13 +3738,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 74.93 44.45)
+			(xy 147.32 116.84) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3144a978-b072-46a8-9e5b-7814bc303f0d")
+		(uuid "30739013-e9ea-4acc-b0bd-f31ab8b3f361")
 	)
 	(wire
 		(pts
@@ -3670,16 +3755,6 @@
 			(type default)
 		)
 		(uuid "32e4e2f2-19ce-4129-82c7-13cd6b4044a1")
-	)
-	(wire
-		(pts
-			(xy 67.31 36.83) (xy 77.47 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3494345b-a417-4e51-b283-986cdf17560b")
 	)
 	(wire
 		(pts
@@ -3723,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 118.11) (xy 129.54 118.11)
+			(xy 123.19 116.84) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3753,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 44.45) (xy 74.93 44.45)
+			(xy 52.07 44.45) (xy 64.77 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3770,16 +3845,6 @@
 			(type default)
 		)
 		(uuid "3facafa1-4665-45ef-8ebc-8aaa1adc791d")
-	)
-	(wire
-		(pts
-			(xy 129.54 105.41) (xy 129.54 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "419d1cec-c680-4000-b1d7-712ee2baebc0")
 	)
 	(wire
 		(pts
@@ -3813,6 +3878,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 39.37) (xy 67.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484c8fcc-5c73-4ff4-871a-fef2ce75e9b7")
+	)
+	(wire
+		(pts
 			(xy 69.85 48.26) (xy 69.85 46.99)
 		)
 		(stroke
@@ -3830,6 +3905,16 @@
 			(type default)
 		)
 		(uuid "4d3294ab-c1ec-4a8c-b1c7-5fee9d6cef0f")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 157.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5122af13-62e7-4506-b77c-3c018abf761d")
 	)
 	(wire
 		(pts
@@ -3860,6 +3945,16 @@
 			(type default)
 		)
 		(uuid "55796a2a-3119-4f6f-b236-31c9c23aa369")
+	)
+	(wire
+		(pts
+			(xy 64.77 44.45) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5671d1a3-7c85-4f75-aa30-fb48f156751a")
 	)
 	(wire
 		(pts
@@ -3913,6 +4008,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 105.41) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c840202-dfa6-4555-859d-025587ff99a3")
+	)
+	(wire
+		(pts
 			(xy 186.69 35.56) (xy 186.69 39.37)
 		)
 		(stroke
@@ -3930,6 +4035,16 @@
 			(type default)
 		)
 		(uuid "5de5055d-1b12-4383-827c-b7925dd24cbd")
+	)
+	(wire
+		(pts
+			(xy 72.39 36.83) (xy 77.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e96a01c-bc58-47b5-8468-16f664f3c2c2")
 	)
 	(wire
 		(pts
@@ -3960,16 +4075,6 @@
 			(type default)
 		)
 		(uuid "622309d8-54ef-4783-9865-814c213a10c7")
-	)
-	(wire
-		(pts
-			(xy 64.77 31.75) (xy 64.77 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "622df1f5-5389-446e-985f-c1828430146d")
 	)
 	(wire
 		(pts
@@ -4033,16 +4138,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 100.33) (xy 163.83 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eb40ef1-d7c2-44a3-9c5e-e251fdb83347")
-	)
-	(wire
-		(pts
 			(xy 111.76 86.36) (xy 123.19 86.36)
 		)
 		(stroke
@@ -4050,16 +4145,6 @@
 			(type default)
 		)
 		(uuid "71cd8718-e656-4a67-a789-89b00549fd56")
-	)
-	(wire
-		(pts
-			(xy 154.94 100.33) (xy 163.83 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72d92ea8-107f-4136-af8f-cba523f8149b")
 	)
 	(wire
 		(pts
@@ -4113,6 +4198,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 128.27) (xy 152.4 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad7c90f-310c-448e-ae51-93819c32865d")
+	)
+	(wire
+		(pts
 			(xy 234.95 99.06) (xy 246.38 99.06)
 		)
 		(stroke
@@ -4123,7 +4218,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 31.75) (xy 52.07 31.75)
+			(xy 52.07 31.75) (xy 74.93 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4150,6 +4245,16 @@
 			(type default)
 		)
 		(uuid "8074bb54-54b4-4ee0-b009-d9db51ac0354")
+	)
+	(wire
+		(pts
+			(xy 152.4 128.27) (xy 185.42 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84535aa4-b99d-410e-9166-03f1db8a4349")
 	)
 	(wire
 		(pts
@@ -4223,13 +4328,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 128.27) (xy 154.94 128.27)
+			(xy 152.4 99.06) (xy 152.4 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9582d685-90d2-4f99-9fcb-395fd08ee7cb")
+		(uuid "93e5efdb-05aa-4be2-9057-2bf64b135adc")
 	)
 	(wire
 		(pts
@@ -4263,13 +4368,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 128.27) (xy 185.42 128.27)
+			(xy 129.54 110.49) (xy 160.02 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d9e033e-01b5-42f6-881f-bf46cb60ee19")
+		(uuid "9da74fa4-7982-47a6-af90-adb191f921b6")
 	)
 	(wire
 		(pts
@@ -4310,6 +4415,16 @@
 			(type default)
 		)
 		(uuid "a8f7564a-0006-45fc-8e4f-08878c25056c")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab19f406-e612-40d1-83b7-eb04cdcf34c8")
 	)
 	(wire
 		(pts
@@ -4423,6 +4538,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 44.45) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0876da5-19b7-4483-93ae-2c21150db777")
+	)
+	(wire
+		(pts
 			(xy 71.12 116.84) (xy 78.74 116.84)
 		)
 		(stroke
@@ -4453,23 +4578,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 99.06) (xy 152.4 100.33)
+			(xy 152.4 120.65) (xy 152.4 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b696f151-88f9-43c4-a4e1-80cf5a7e2d51")
-	)
-	(wire
-		(pts
-			(xy 64.77 31.75) (xy 77.47 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7aaf20c-f417-4a83-8333-b71835a2dcde")
+		(uuid "b7e121be-50bf-4059-b9a4-fb4b5426b5a4")
 	)
 	(wire
 		(pts
@@ -4533,17 +4648,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 39.37) (xy 72.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d23823-25f0-4723-9b6c-18e8ea066d41")
-	)
-	(wire
-		(pts
-			(xy 72.39 39.37) (xy 52.07 39.37)
+			(xy 52.07 39.37) (xy 67.31 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4560,6 +4665,16 @@
 			(type default)
 		)
 		(uuid "ceda2679-899e-4e09-9f26-9ac0cbf9a28c")
+	)
+	(wire
+		(pts
+			(xy 74.93 31.75) (xy 77.47 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21cb502-a84e-484d-99f3-e83680cd5036")
 	)
 	(wire
 		(pts
@@ -4600,16 +4715,6 @@
 			(type default)
 		)
 		(uuid "d7bb82b6-4c71-4444-98f8-9af210b114e0")
-	)
-	(wire
-		(pts
-			(xy 72.39 39.37) (xy 77.47 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc36339f-7d4b-4d05-b5bf-6c27064b04df")
 	)
 	(wire
 		(pts
@@ -4693,16 +4798,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 130.81) (xy 152.4 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eddd7a6b-b3a4-4fd6-b79d-a97fc851d7a6")
-	)
-	(wire
-		(pts
 			(xy 54.61 81.28) (xy 54.61 85.09)
 		)
 		(stroke
@@ -4763,7 +4858,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 119.38) (xy 123.19 118.11)
+			(xy 123.19 118.11) (xy 123.19 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6622,7 +6717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b96b1e5-2325-4a24-9063-ddabe5daf815")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 238.76 101.5999 0)
 			(effects
 				(font
@@ -6703,7 +6798,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -6719,7 +6814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "127ceff1-a26f-4ba0-9c1f-544735326a9c")
-		(property "Reference" "D8"
+		(property "Reference" "D10"
 			(at 78.74 62.2299 90)
 			(effects
 				(font
@@ -6858,7 +6953,7 @@
 		(instances
 			(project ""
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "D8")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6874,7 +6969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12b8506d-35ac-4060-be09-1cb2db03d7fd")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 53.34 133.3499 0)
 			(effects
 				(font
@@ -6955,7 +7050,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -7058,7 +7153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1469b9ea-ef4b-448a-9971-78c8a6904f3b")
-		(property "Reference" "C37"
+		(property "Reference" "C39"
 			(at 140.97 120.904 90)
 			(effects
 				(font
@@ -7128,7 +7223,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C37")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -7320,7 +7415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bfe1773-ae6a-4fde-b69c-283ed68860ae")
-		(property "Reference" "C35"
+		(property "Reference" "C36"
 			(at 138.43 88.8999 0)
 			(effects
 				(font
@@ -7401,7 +7496,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -7417,7 +7512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1df3409d-a012-4a63-b0ba-66afc3b2836a")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 259.08 116.84 0)
 			(effects
 				(font
@@ -7467,7 +7562,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -7549,7 +7644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2647307b-e692-4a4a-b552-77500700a458")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 191.77 27.94 0)
 			(effects
 				(font
@@ -7599,7 +7694,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7615,7 +7710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a7ed9ea-581c-44a4-8819-c7b5d7d67ec4")
-		(property "Reference" "C42"
+		(property "Reference" "C43"
 			(at 262.89 101.5999 0)
 			(effects
 				(font
@@ -7696,7 +7791,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C42")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -8263,72 +8358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ab51c2b-9009-4a13-8f7c-37835fe32a4b")
-		(property "Reference" "#PWR093"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ae36816-0757-471f-a92e-4f5c445df63a")
-		)
-		(instances
-			(project "STM32 Microcontroller Board"
-				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RJMG1S8008101BR:RJMG1S8008101BR")
 		(at 39.37 44.45 0)
 		(mirror y)
@@ -8422,11 +8451,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RJMG1S8008101BR"
+		(property "MPN" "RJMG1S8008101"
 			(at 39.624 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
 			)
 		)
@@ -8568,7 +8598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 119.38 0)
+		(at 123.19 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8576,8 +8606,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51f6350b-389d-4a35-99af-a7f704255ea0")
-		(property "Reference" "#PWR061"
-			(at 123.19 125.73 0)
+		(property "Reference" "#PWR063"
+			(at 123.19 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +8616,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 124.46 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8594,7 +8624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 119.38 0)
+			(at 123.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,7 +8633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 119.38 0)
+			(at 123.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 119.38 0)
+			(at 123.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +8656,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8642,7 +8672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5212645e-8f76-4733-bfed-39724e1a52fa")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 168.91 58.42 0)
 			(effects
 				(font
@@ -8692,7 +8722,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8708,7 +8738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5692c423-55b6-476a-9a40-24cd902e94a6")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -8758,7 +8788,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8774,7 +8804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c36296d-13e4-4ca0-a333-455af1950bd6")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 78.74 118.11 0)
 			(effects
 				(font
@@ -8824,7 +8854,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8928,7 +8958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60960247-7816-41ac-88c1-623eedf9151c")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -8978,7 +9008,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8994,7 +9024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62016f29-b79d-485f-bf5e-338d16ef2e19")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 255.27 99.06 0)
 			(effects
 				(font
@@ -9044,7 +9074,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -9060,7 +9090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63509325-8dfb-4586-a6cd-a355c025fe4f")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 27.94 116.84 0)
 			(effects
 				(font
@@ -9110,7 +9140,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9126,7 +9156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d8d9398-b986-4bf5-a79d-e365cab44d4a")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 236.22 121.92 0)
 			(effects
 				(font
@@ -9176,7 +9206,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -9192,7 +9222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f8d58ea-70d0-43b7-b3be-347bd4a77993")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 248.92 66.04 0)
 			(effects
 				(font
@@ -9242,7 +9272,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -9258,7 +9288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c66425-43d7-4803-a75d-9b2288fa8012")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 48.26 69.85 90)
 			(effects
 				(font
@@ -9328,7 +9358,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -9344,7 +9374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72c44b97-d5c7-4c86-ab98-fe9f78c3828f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 177.8 149.86 0)
 			(effects
 				(font
@@ -9394,7 +9424,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9410,7 +9440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75788901-ec6a-476b-b56a-a56be1040351")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 90.17 131.1274 90)
 			(effects
 				(font
@@ -9491,7 +9521,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -9507,7 +9537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7794d06f-5577-45d6-b620-fc169e131937")
-		(property "Reference" "C38"
+		(property "Reference" "C37"
 			(at 138.43 64.77 90)
 			(effects
 				(font
@@ -9577,7 +9607,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C38")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -9681,7 +9711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81350455-b08e-414f-8df6-e4e3df885297")
-		(property "Reference" "C43"
+		(property "Reference" "C44"
 			(at 273.05 101.5999 0)
 			(effects
 				(font
@@ -9753,7 +9783,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C43")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -10009,7 +10039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9537d8f2-49ca-4938-adb3-6140b3c7ecf3")
-		(property "Reference" "C34"
+		(property "Reference" "C35"
 			(at 127 88.8999 0)
 			(effects
 				(font
@@ -10090,15 +10120,15 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ECS-250-18-36B2-CTY-TR:ECS-250-18-36B2-CTY-TR")
-		(at 152.4 133.35 90)
+		(lib_id "Device:Crystal_GND24")
+		(at 152.4 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10106,7 +10136,7 @@
 		(dnp no)
 		(uuid "9e5d3d27-35db-4dfc-9728-589fbe416bb7")
 		(property "Reference" "Y2"
-			(at 158.75 112.0139 90)
+			(at 156.972 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +10145,7 @@
 			)
 		)
 		(property "Value" "25MHz"
-			(at 158.75 114.5539 90)
+			(at 156.972 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,27 +10154,25 @@
 			)
 		)
 		(property "Footprint" "footprints:ECS2501836B2CTYTR"
-			(at 247.32 104.14 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/122/ECX_2236B2-2400583.pdf"
-			(at 347.32 104.14 0)
+		(property "Datasheet" "~"
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Crystals ESR 50,FREQ 25,STABILITY +/-30ppm,TOLERANCE +/-10ppm,CL 18pF,AGING +/-2 ppm ,-30 C 85 C,100uW in typical (Max 200uW), 2.50mm x 2.00mm"
-			(at 152.4 133.35 0)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10181,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 547.32 104.14 0)
+			(at 547.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +10191,7 @@
 			)
 		)
 		(property "Mouser Part Number" "520-250-18-36B2CTYTR"
-			(at 647.32 104.14 0)
+			(at 647.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10201,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-250-18-36B2-CTY-TR?qs=aP1CjGhiNiFniXuPEM212w%3D%3D"
-			(at 747.32 104.14 0)
+			(at 747.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,7 +10211,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ECS"
-			(at 847.32 104.14 0)
+			(at 847.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10221,7 @@
 			)
 		)
 		(property "MPN" "ECS-250-18-36B2-CTY-TR"
-			(at 947.32 104.14 0)
+			(at 947.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10232,7 +10260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fcc1c17-94fb-4198-ba2d-09c258118bae")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 212.09 59.69 0)
 			(effects
 				(font
@@ -10282,7 +10310,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -10298,7 +10326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a141564f-8a4e-47da-830c-536740eff84d")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 27.94 151.13 0)
 			(effects
 				(font
@@ -10348,7 +10376,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10408,11 +10436,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPZ1608S601ATA00"
-			(at 120.65 82.296 0)
+		(property "MPN" "MPZ1608S601"
+			(at 122.428 82.55 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
 			)
 		)
@@ -10458,7 +10487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac6533c8-4f15-4d72-ad7f-330dd2db2e8e")
-		(property "Reference" "C36"
+		(property "Reference" "C38"
 			(at 140.97 98.044 90)
 			(effects
 				(font
@@ -10528,7 +10557,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C36")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -10631,7 +10660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfa82785-8c6f-430c-bb7c-6231a0a6ac21")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -10681,7 +10710,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10785,7 +10814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdafd899-64cc-4578-9d4d-65b261c6cb4d")
-		(property "Reference" "C33"
+		(property "Reference" "C34"
 			(at 115.57 88.8999 0)
 			(effects
 				(font
@@ -10866,7 +10895,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -10882,7 +10911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1e2b37a-c8ac-437b-a02b-3aae583e8a19")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 148.59 88.8999 0)
 			(effects
 				(font
@@ -10954,7 +10983,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -11243,7 +11272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a6af4f-2e0c-4de7-8a36-2ff89498dbf9")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 269.24 101.6 0)
 			(effects
 				(font
@@ -11293,7 +11322,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -11309,7 +11338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eef436d1-61ab-41f6-80e0-be69be78dc7f")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 58.42 90.17 0)
 			(effects
 				(font
@@ -11359,73 +11388,7 @@
 		(instances
 			(project ""
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 152.4 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6eae589-aa4f-43d6-9053-8a44b109e008")
-		(property "Reference" "#PWR094"
-			(at 152.4 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4ec317d-8444-4456-bd46-9a33d8db5410")
-		)
-		(instances
-			(project "STM32 Microcontroller Board"
-				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR094")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -11529,7 +11492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff4bbf00-fece-46f8-82e1-4e18389b6fdd")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -11579,7 +11542,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -11594,7 +11557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffd3caab-a3e1-43cd-bfad-8ec8ed6b5a20")
-		(property "Reference" "C41"
+		(property "Reference" "C42"
 			(at 250.19 101.5999 0)
 			(effects
 				(font
@@ -11675,7 +11638,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/436b04a7-c6fa-4a3e-b66a-f6ad9cc4ab45"
-					(reference "C41")
+					(reference "C42")
 					(unit 1)
 				)
 			)

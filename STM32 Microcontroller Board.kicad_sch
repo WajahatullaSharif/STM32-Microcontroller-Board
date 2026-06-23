@@ -88,6 +88,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ef90f1-955a-464a-8b5c-d36b63ea13e3")
+	)
+	(wire
+		(pts
 			(xy 100.33 102.87) (xy 121.92 102.87)
 		)
 		(stroke
@@ -422,6 +432,16 @@
 		(pin "R_PWM" input
 			(at 99.06 66.04 0)
 			(uuid "cc1903b0-8b28-4c54-bb7d-bc118625ac4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_sense" output
+			(at 99.06 63.5 0)
+			(uuid "321bcfb3-b59c-4a67-9ee5-54cb06765da7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,6 +1301,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "V_sense" input
+			(at 121.92 63.5 180)
+			(uuid "92b33274-4014-4a62-aa1e-73d55cf4c97e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
