@@ -5418,7 +5418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6930096c-6ffd-4297-ab2d-b44a7f915e04")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 234.95 64.7699 90)
 			(effects
 				(font
@@ -5487,7 +5487,7 @@
 		(instances
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2e427d26-78ca-4cc9-965e-91a8c72f7160"
-					(reference "TP8")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
