@@ -7,9 +7,6 @@
 	(title_block
 		(title "DeskNode-F4")
 		(rev "A")
-		(company "_electronic_projects")
-		(comment 1 "Wajahatulla Sharif")
-		(comment 2 "Designed by ")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TLV9001IDCK"
