@@ -5176,6 +5176,17 @@
 		)
 		(uuid 66b6609b-5762-4e0c-ae12-b56668ba7034)
 	)
+	(text "Check internal pullups if present"
+		(exclude_from_sim no)
+		(at 64.516 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 19 1)
+			)
+		)
+		(uuid "2cca0296-a9d3-4bd9-b0ce-c985bf7b0183")
+	)
 	(text "1mA"
 		(exclude_from_sim no)
 		(at 271.018 154.178 0)
@@ -5195,6 +5206,17 @@
 			)
 		)
 		(uuid "39b468ce-1f47-4a61-9112-4cde295bcc46")
+	)
+	(text "Add actual pins"
+		(exclude_from_sim no)
+		(at 48.768 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 7 1)
+			)
+		)
+		(uuid "49c4592c-6c24-4ded-a75f-4058aab7d042")
 	)
 	(text "STM32F407 RESET & BOOT0"
 		(exclude_from_sim no)
@@ -5320,6 +5342,17 @@
 			(justify left bottom)
 		)
 		(uuid "df29a6f0-87ed-4e1f-9001-d23d4d2e2d38")
+	)
+	(text "Add TP"
+		(exclude_from_sim no)
+		(at 94.488 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 65 1)
+			)
+		)
+		(uuid "e07249cc-c635-4016-9e5f-3beb085cfa3b")
 	)
 	(text "BTN2"
 		(exclude_from_sim no)

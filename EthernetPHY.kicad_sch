@@ -2946,6 +2946,18 @@
 		(uuid 47e47296-20a8-4ac2-bdf1-3bf61ce97357)
 	)
 	(rectangle
+		(start 233.68 30.48)
+		(end 250.19 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a7469e2-8029-42f0-ba30-d4d492ec7464)
+	)
+	(rectangle
 		(start 17.526 14.732)
 		(end 101.092 94.996)
 		(stroke
@@ -2992,6 +3004,17 @@
 			)
 		)
 		(uuid "37d50f8b-2d3c-43aa-8129-b6fbcf193d1d")
+	)
+	(text "Add TPs"
+		(exclude_from_sim no)
+		(at 240.284 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 15 3 1)
+			)
+		)
+		(uuid "4e6c1ff1-c5b9-40e8-aa04-f57f31eabc35")
 	)
 	(text "Ethernet PHY"
 		(exclude_from_sim no)

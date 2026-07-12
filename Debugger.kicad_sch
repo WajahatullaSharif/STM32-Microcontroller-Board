@@ -3990,6 +3990,17 @@
 		)
 		(uuid "a95b094c-4ce4-4290-b3bb-3505f6158c78")
 	)
+	(text "Check feasibility for adding pullup 3.3V to D+ USB line"
+		(exclude_from_sim no)
+		(at 290.322 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 7 16 1)
+			)
+		)
+		(uuid "b1f12a6c-6db1-498e-8df8-0104248304e7")
+	)
 	(text "Debugger/Programmer"
 		(exclude_from_sim no)
 		(at 23.622 24.13 0)

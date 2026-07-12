@@ -2598,6 +2598,17 @@
 		)
 		(uuid c8bf3ba0-498c-4834-8319-47a61d788ad8)
 	)
+	(text "Add ESD for 12V - DNP"
+		(exclude_from_sim no)
+		(at 54.102 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 3 0 1)
+			)
+		)
+		(uuid "26e1773d-e0de-48b7-adfa-f0bee186500c")
+	)
 	(text "+2.17V"
 		(exclude_from_sim no)
 		(at 87.63 127.254 0)
