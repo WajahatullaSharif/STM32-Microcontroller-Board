@@ -12937,13 +12937,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "TestPoint"
 			(at 274.32 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
@@ -13682,13 +13683,14 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPZ1608S601"
+		(property "MPN" "MPZ1608S601ATA00"
 			(at 93.472 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -13700,13 +13702,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 82.55 26.67 0)
+		(property "Manufacturer_Part_Number" "MPZ1608S601"
+			(at 93.218 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15859,13 +15861,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 138.43 190.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"

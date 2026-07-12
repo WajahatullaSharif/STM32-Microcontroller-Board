@@ -6300,13 +6300,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "TestPoint"
 			(at 266.7 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
@@ -8594,13 +8595,14 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NANOSMDC075"
+		(property "MPN" "NANOSMDC075F-2"
 			(at 257.048 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Littlefuse"
@@ -8612,13 +8614,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 248.92 90.17 90)
+		(property "Manufacturer_Part_Number" "NANOSMDC075"
+			(at 257.556 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8756,22 +8758,23 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ECS80185PX"
+		(property "MPN" "ECS-80-18-5PX-TR"
 			(at 58.166 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 50.8 97.79 90)
+		(property "Manufacturer_Part_Number" "ECS80185PX"
+			(at 57.404 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10676,22 +10679,23 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "USB3076-30"
+		(property "MPN" "USB3076-30-A"
 			(at 270.764 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 270.51 100.33 0)
+		(property "Manufacturer_Part_Number" "USB3076-30"
+			(at 270.764 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"

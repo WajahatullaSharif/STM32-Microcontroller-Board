@@ -3094,16 +3094,16 @@
 		(uuid "1f13ab17-c46f-4f45-96b0-18b33fe7ccd2")
 	)
 	(junction
-		(at 72.39 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "289b25a6-5009-4987-93be-280e4f1f70c6")
-	)
-	(junction
 		(at 152.4 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b33d97c-6190-49eb-b492-7e3ec1baf625")
+	)
+	(junction
+		(at 74.93 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f1e6eeb-7738-42e5-89fb-054cd7edbdea")
 	)
 	(junction
 		(at 67.31 39.37)
@@ -3128,6 +3128,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "474eb0b5-0752-4642-b2c5-b0c479cc57bc")
+	)
+	(junction
+		(at 72.39 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d8fb67e-da9e-405d-8757-7fe1297e4747")
 	)
 	(junction
 		(at 27.94 142.24)
@@ -3200,12 +3206,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a0b9209-cee0-4449-9f57-0acdd42fef70")
-	)
-	(junction
-		(at 74.93 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a37010b7-cd6f-4d10-b736-d81045779596")
 	)
 	(junction
 		(at 58.42 81.28)
@@ -3435,16 +3435,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 36.83) (xy 72.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c9e78c8-96fa-4ecf-ba9e-ac1f3d7051fa")
-	)
-	(wire
-		(pts
 			(xy 186.69 39.37) (xy 190.5 39.37)
 		)
 		(stroke
@@ -3492,16 +3482,6 @@
 			(type default)
 		)
 		(uuid "15768403-1576-4f9e-b0f9-06aebc5ea9cb")
-	)
-	(wire
-		(pts
-			(xy 52.07 36.83) (xy 72.39 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16aa6f98-3688-41b4-a38b-a61bdf55f8ce")
 	)
 	(wire
 		(pts
@@ -3715,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 31.75) (xy 74.93 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2b0f89-e90a-46dd-a1a6-b3c3b5daedfc")
-	)
-	(wire
-		(pts
 			(xy 146.05 105.41) (xy 144.78 105.41)
 		)
 		(stroke
@@ -3915,6 +3885,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 36.83) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517f99ec-ffb4-4714-bb8d-0b8bc115eaf2")
+	)
+	(wire
+		(pts
 			(xy 58.42 57.15) (xy 58.42 59.69)
 		)
 		(stroke
@@ -4035,7 +4015,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 36.83) (xy 77.47 36.83)
+			(xy 52.07 36.83) (xy 74.93 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4092,6 +4072,16 @@
 			(type default)
 		)
 		(uuid "6359ec59-d1c2-4b5f-a6b4-4937b7f0a69d")
+	)
+	(wire
+		(pts
+			(xy 74.93 36.83) (xy 77.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6614293f-1d30-4e9a-b350-d9daa2f8715e")
 	)
 	(wire
 		(pts
@@ -4212,16 +4202,6 @@
 			(type default)
 		)
 		(uuid "7c870314-ff9b-4bb4-9eaa-885563474a50")
-	)
-	(wire
-		(pts
-			(xy 52.07 31.75) (xy 74.93 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e387e42-a138-4c71-a5bb-ed5e723738ac")
 	)
 	(wire
 		(pts
@@ -4412,6 +4392,16 @@
 			(type default)
 		)
 		(uuid "a8f7564a-0006-45fc-8e4f-08878c25056c")
+	)
+	(wire
+		(pts
+			(xy 72.39 31.75) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae19e37-a56d-4922-a54b-5453f17aebe7")
 	)
 	(wire
 		(pts
@@ -4615,6 +4605,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 31.75) (xy 77.47 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfaec81d-7ead-4676-ae94-d83ee0e89f02")
+	)
+	(wire
+		(pts
 			(xy 52.07 59.69) (xy 58.42 59.69)
 		)
 		(stroke
@@ -4665,7 +4665,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 31.75) (xy 77.47 31.75)
+			(xy 52.07 31.75) (xy 72.39 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6820,7 +6820,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD7104MUTAG"
+		(property "Value" "SP1004U-ULC-04UTG"
 			(at 78.74 64.7699 90)
 			(effects
 				(font
@@ -6839,7 +6839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD7104-D.PDF"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/ultra-low-capacitance-diode-arrays-series-datasheet?assetguid=03876E90-1979-448E-B2EE-6071EF500868"
 			(at -119.99 74.93 0)
 			(effects
 				(font
@@ -6849,7 +6849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS DIODE 5VWM 10VC 10UDFN"
+		(property "Description" "ESD Protection Diodes / TVS Diodes 5V .2pF 20kV 4CH"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -6868,27 +6868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "863-ESD7104MUTAG"
-			(at -419.99 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD7104MUTAG?qs=8nbDJddAfDXw%2Fvxmx%252Bz6Hg%3D%3D"
-			(at -519.99 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
+		(property "Manufacturer_Name" "Littelfuse"
 			(at -619.99 74.93 0)
 			(effects
 				(font
@@ -6898,7 +6878,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESD7104MUTAG"
+		(property "MPN" "SP1004U-ULC-04UTG"
 			(at -719.99 74.93 0)
 			(effects
 				(font
@@ -10433,13 +10413,14 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPZ1608S601"
+		(property "MPN" "MPZ1608S601ATA00"
 			(at 122.428 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -10451,13 +10432,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 111.76 78.74 0)
+		(property "Manufacturer_Part_Number" "MPZ1608S601"
+			(at 122.428 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"

@@ -268,6 +268,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/ESD7104MUTAG.STEP"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -276,6 +277,17 @@
 		)
 		(rotate
 			(xyz -90 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/SP1004U-ULC-04UTG.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
 		)
 	)
 )

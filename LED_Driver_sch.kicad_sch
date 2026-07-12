@@ -4310,22 +4310,23 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "IRLML6344"
+		(property "MPN" "IRLML6344TRPBF"
 			(at 184.404 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 175.26 66.04 0)
+		(property "Manufacturer_Part_Number" "IRLML6344"
+			(at 184.404 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4624,7 +4625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 76.2 66.04 0)
 			(effects
 				(font
@@ -4842,7 +4843,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "IRLML6344"
+		(property "MPN" "IRLML6344TRPBF"
 			(at 220.98 62.484 0)
 			(effects
 				(font
@@ -4850,15 +4851,16 @@
 					(color 0 132 132 1)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 217.17 66.04 0)
+		(property "Manufacturer_Part_Number" "IRLML6344"
+			(at 226.314 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5679,22 +5681,23 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 68.58 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FDS6679"
+		(property "Manufacturer_Part_Number" "FDS6679"
 			(at 70.104 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+			)
+		)
+		(property "MPN" "FDS6679AZ"
+			(at 70.104 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 132 132 1)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6513,13 +6516,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "TestPoint"
 			(at 86.36 114.8079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
@@ -7035,13 +7039,14 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UCL1E681M"
+		(property "MPN" "UCL1E681MNL1GS"
 			(at 96.012 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Nichicon"
@@ -7053,13 +7058,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 88.9 66.04 0)
+		(property "Manufacturer_Part_Number" "UCL1E681M"
+			(at 96.266 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7242,13 +7247,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 86.36 144.2719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
@@ -7507,7 +7513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PTC RESET FUSE 6.0A 24V 2920"
+		(property "Description" "PTC RESET FUSE 6.0A 16V 2920"
 			(at 58.42 116.84 0)
 			(effects
 				(font
@@ -7516,13 +7522,14 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "2920L600/24"
+		(property "MPN" "2920L600/16MR"
 			(at 58.674 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Littlefuse"
@@ -7534,13 +7541,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 58.42 116.84 90)
+		(property "Manufacturer_Part_Number" "2920L600/16"
+			(at 57.658 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7902,22 +7909,23 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "IRLML6344"
+		(property "MPN" "IRLML6344TRPBF"
 			(at 267.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 259.08 66.04 0)
+		(property "Manufacturer_Part_Number" "IRLML6344"
+			(at 267.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

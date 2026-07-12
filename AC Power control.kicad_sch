@@ -4510,13 +4510,14 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NANOSMDC075"
+		(property "MPN" "NANOSMDC075F-2"
 			(at 235.712 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Littlefuse"
@@ -4528,13 +4529,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 234.95 86.36 90)
+		(property "Manufacturer_Part_Number" "NANOSMDC075"
+			(at 235.712 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5424,13 +5425,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "TestPoint"
 			(at 234.95 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
@@ -6374,22 +6376,23 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "USB3076-30"
+		(property "MPN" "USB3076-30-A"
 			(at 256.54 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 256.54 97.79 0)
+		(property "Manufacturer_Part_Number" "USB3076-30"
+			(at 256.794 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"
