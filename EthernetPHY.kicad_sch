@@ -3093,6 +3093,12 @@
 		(uuid "c8860ecd-bcb9-45fc-ae08-cb415821c6c9")
 	)
 	(junction
+		(at 64.77 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03a4bf1c-01d1-494a-800f-eac62e1d952d")
+	)
+	(junction
 		(at 111.76 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3123,18 +3129,6 @@
 		(uuid "2b33d97c-6190-49eb-b492-7e3ec1baf625")
 	)
 	(junction
-		(at 74.93 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f1e6eeb-7738-42e5-89fb-054cd7edbdea")
-	)
-	(junction
-		(at 67.31 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34abf5a8-5c16-4b0a-b658-a62a231321ec")
-	)
-	(junction
 		(at 129.54 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3151,12 +3145,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "474eb0b5-0752-4642-b2c5-b0c479cc57bc")
-	)
-	(junction
-		(at 72.39 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d8fb67e-da9e-405d-8757-7fe1297e4747")
 	)
 	(junction
 		(at 27.94 142.24)
@@ -3219,6 +3207,12 @@
 		(uuid "76bbb57e-e582-4db7-97d7-ca1b0664e59e")
 	)
 	(junction
+		(at 72.39 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8422abf5-fa83-45cd-b2ff-be4b4dd6eb3e")
+	)
+	(junction
 		(at 27.94 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3261,16 +3255,16 @@
 		(uuid "b1eadd56-bf62-4dbd-a0e6-902feb4bae34")
 	)
 	(junction
+		(at 74.93 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8bb1906-b146-4a10-8c72-31b6bae00e5e")
+	)
+	(junction
 		(at 191.77 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca21b83a-9e44-4989-b8aa-39a11b1258fc")
-	)
-	(junction
-		(at 64.77 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca3816fe-b71d-45b2-b00b-270a5daa6cfb")
 	)
 	(junction
 		(at 234.95 99.06)
@@ -3319,6 +3313,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f519a32a-e585-4470-b847-d7313893b6a8")
+	)
+	(junction
+		(at 67.31 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc78a7e4-3d46-4d17-a165-9ca5a67c3c59")
 	)
 	(no_connect
 		(at 64.77 78.74)
@@ -3405,16 +3405,6 @@
 			(type default)
 		)
 		(uuid "053dd1eb-a139-4eac-839b-2a16794edc07")
-	)
-	(wire
-		(pts
-			(xy 67.31 39.37) (xy 77.47 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "077fc79c-b79e-448d-8a57-217fec33204d")
 	)
 	(wire
 		(pts
@@ -3518,6 +3508,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 44.45) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c545e54-b024-4b97-8a6b-e5112a0830cd")
+	)
+	(wire
+		(pts
 			(xy 27.94 121.92) (xy 27.94 125.73)
 		)
 		(stroke
@@ -3618,6 +3618,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 39.37) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b7d9bb-5077-43c6-88b2-28f6c8f023a8")
+	)
+	(wire
+		(pts
 			(xy 158.75 96.52) (xy 163.83 96.52)
 		)
 		(stroke
@@ -3635,6 +3645,16 @@
 			(type default)
 		)
 		(uuid "278d11c8-bf66-4fcf-b072-2c48a38c7180")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 77.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28229475-89c7-435a-8324-0d79dfc81d87")
 	)
 	(wire
 		(pts
@@ -3705,6 +3725,16 @@
 			(type default)
 		)
 		(uuid "2c7609f2-6fa3-40c8-8411-4a59424cb5f7")
+	)
+	(wire
+		(pts
+			(xy 67.31 36.83) (xy 67.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5f3843-c6fc-40ef-bf97-985ebbd694bc")
 	)
 	(wire
 		(pts
@@ -3808,6 +3838,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 31.75) (xy 77.47 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c580eec-400d-4cc4-a1f7-b74e7abb33d0")
+	)
+	(wire
+		(pts
 			(xy 190.5 134.62) (xy 190.5 129.54)
 		)
 		(stroke
@@ -3818,13 +3858,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 44.45) (xy 64.77 44.45)
+			(xy 67.31 36.83) (xy 77.47 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f7a55c5-a889-4f7e-9a15-8022951b173f")
+		(uuid "3efb264f-ac8b-430a-9652-c724ca1291d9")
 	)
 	(wire
 		(pts
@@ -3868,16 +3908,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 39.37) (xy 67.31 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "484c8fcc-5c73-4ff4-871a-fef2ce75e9b7")
-	)
-	(wire
-		(pts
 			(xy 69.85 48.26) (xy 69.85 46.99)
 		)
 		(stroke
@@ -3905,16 +3935,6 @@
 			(type default)
 		)
 		(uuid "5122af13-62e7-4506-b77c-3c018abf761d")
-	)
-	(wire
-		(pts
-			(xy 74.93 36.83) (xy 74.93 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "517f99ec-ffb4-4714-bb8d-0b8bc115eaf2")
 	)
 	(wire
 		(pts
@@ -3948,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 44.45) (xy 77.47 44.45)
+			(xy 52.07 44.45) (xy 74.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4038,16 +4058,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 36.83) (xy 74.93 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e96a01c-bc58-47b5-8468-16f664f3c2c2")
-	)
-	(wire
-		(pts
 			(xy 58.42 46.99) (xy 58.42 57.15)
 		)
 		(stroke
@@ -4098,13 +4108,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 36.83) (xy 77.47 36.83)
+			(xy 52.07 36.83) (xy 67.31 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6614293f-1d30-4e9a-b350-d9daa2f8715e")
+	)
+	(wire
+		(pts
+			(xy 64.77 31.75) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6890a5e7-73ac-4337-98b4-3f3233bc7a34")
 	)
 	(wire
 		(pts
@@ -4418,16 +4438,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 31.75) (xy 72.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae19e37-a56d-4922-a54b-5453f17aebe7")
-	)
-	(wire
-		(pts
 			(xy 160.02 116.84) (xy 160.02 110.49)
 		)
 		(stroke
@@ -4548,16 +4558,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 44.45) (xy 64.77 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0876da5-19b7-4483-93ae-2c21150db777")
-	)
-	(wire
-		(pts
 			(xy 71.12 116.84) (xy 78.74 116.84)
 		)
 		(stroke
@@ -4608,6 +4608,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 44.45) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8bf79e-9143-4289-b3aa-605d749b272c")
+	)
+	(wire
+		(pts
 			(xy 71.12 140.97) (xy 71.12 134.62)
 		)
 		(stroke
@@ -4625,16 +4635,6 @@
 			(type default)
 		)
 		(uuid "beb54433-bdf3-43aa-ba05-872ef05ade76")
-	)
-	(wire
-		(pts
-			(xy 72.39 31.75) (xy 77.47 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfaec81d-7ead-4676-ae94-d83ee0e89f02")
 	)
 	(wire
 		(pts
@@ -4668,7 +4668,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 67.31 39.37)
+			(xy 52.07 39.37) (xy 72.39 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4688,7 +4688,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 31.75) (xy 72.39 31.75)
+			(xy 52.07 31.75) (xy 64.77 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6809,6 +6809,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 234.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fddd921c-af9c-42e7-8186-4d0dc885ea89")
 		)
@@ -6912,6 +6921,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 74.93 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 74.93 48.26 90)
 			(effects
 				(font
@@ -7041,6 +7059,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec146508-5df5-4355-bfcc-936c291fbd78")
 		)
@@ -7129,6 +7156,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 71.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f886c78-9b02-47b4-a6c6-dbc6802bbdf8")
 		)
@@ -7206,6 +7242,15 @@
 			)
 		)
 		(property "MPN" "CL10C270JB8NNNC"
+			(at 140.97 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 140.97 128.27 90)
 			(effects
 				(font
@@ -7302,6 +7347,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 220.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d4d8d95-504d-4299-8217-a777fac78f22")
 		)
@@ -7383,6 +7437,15 @@
 		)
 		(property "MPN" "RC0603FR-071K5L"
 			(at 86.36 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
+			(at 86.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,6 +7542,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 134.62 90.17 0)
 			(effects
 				(font
@@ -7782,6 +7854,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 259.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5ff16269-d6c9-4c29-907e-7c98302d718e")
 		)
@@ -7870,6 +7951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03255635-2538-49f3-a745-62c4f4bb8a7b")
 		)
@@ -7940,7 +8030,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTS645SK50SMTR92 LFS"
+		(property "MPN" "SWT0310-043016GSA"
 			(at 27.94 134.62 90)
 			(effects
 				(font
@@ -7950,6 +8040,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 27.94 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" "PTS645SH50SMTR92 LFS"
 			(at 27.94 134.62 90)
 			(effects
 				(font
@@ -8029,6 +8128,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 231.14 64.77 0)
 			(effects
 				(font
@@ -8154,6 +8262,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 167.64 81.28 0)
 			(effects
 				(font
@@ -8342,6 +8459,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f22b74f0-40ab-44c0-916c-0f0648f2b1a6")
 		)
@@ -8469,6 +8595,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 39.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "5f9be85e-c8f9-4f83-b4ea-9d8b08224891")
 		)
@@ -8573,6 +8708,15 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
+			(at 233.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 233.68 73.66 0)
 			(effects
 				(font
@@ -8925,6 +9069,15 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 186.69 31.75 0)
 			(effects
 				(font
@@ -9304,7 +9457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 52.07 76.5048 0)
 			(effects
 				(font
@@ -9322,7 +9475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1000PF 100V X7R 0603"
+		(property "Description" "CAP CER 1000PF 2KV X7R 1206"
 			(at 48.26 77.47 0)
 			(effects
 				(font
@@ -9340,7 +9493,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A102KA01D"
+		(property "MPN" "CC1206KKX7RDBB102"
+			(at 48.26 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 48.26 77.47 90)
 			(effects
 				(font
@@ -9512,6 +9674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 86.36 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6afd4938-8a0f-4d7a-a46f-ae28f6fdde15")
 		)
@@ -9590,6 +9761,15 @@
 			)
 		)
 		(property "MPN" "GRM1885C1H202JA01D"
+			(at 138.43 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 138.43 72.39 90)
 			(effects
 				(font
@@ -9686,6 +9866,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 212.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc94d17b-cd41-42c7-9dff-3bf3df70faa2")
 		)
@@ -9774,6 +9963,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 269.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d169e393-012e-4b33-b449-49694f1b3d7a")
 		)
@@ -9854,6 +10052,15 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
+			(at 236.22 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 236.22 123.19 0)
 			(effects
 				(font
@@ -10015,6 +10222,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 48.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bf1bfa5-dec0-475f-b768-c6775a29e42f")
 		)
@@ -10103,6 +10319,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -10227,6 +10452,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Alternate MPN" ""
+			(at 152.4 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -10464,6 +10698,15 @@
 				)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db9db272-4262-415b-abd5-f7d9118db6d0")
 		)
@@ -10541,6 +10784,15 @@
 			)
 		)
 		(property "MPN" "CL10C270JB8NNNC"
+			(at 140.97 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 140.97 105.41 90)
 			(effects
 				(font
@@ -10628,6 +10880,15 @@
 			)
 		)
 		(property "MPN" "RC0603FR-072K49L"
+			(at 229.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 229.87 123.19 0)
 			(effects
 				(font
@@ -10790,6 +11051,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7f779fb-1262-4047-b3bc-901af7b15ef3")
 		)
@@ -10887,6 +11157,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 111.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0da99670-1e30-437b-a94e-3d491e3da787")
 		)
@@ -10975,6 +11254,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59bae40a-a063-4819-b1d7-86d1caf9a99a")
 		)
@@ -11055,6 +11343,15 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 27.94 118.11 0)
 			(effects
 				(font
@@ -11160,6 +11457,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 71.12 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88453f4f-2e20-4725-aa1e-6c0621626814")
 		)
@@ -11240,6 +11546,15 @@
 			)
 		)
 		(property "MPN" "RC0603FR-072K49L"
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 248.92 73.66 0)
 			(effects
 				(font
@@ -11468,6 +11783,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate MPN" ""
+			(at 196.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b5300bf-fea5-45d4-86b5-e558b1dc270c")
 		)
@@ -11622,6 +11946,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 246.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate MPN" ""
 			(at 246.38 102.87 0)
 			(effects
 				(font

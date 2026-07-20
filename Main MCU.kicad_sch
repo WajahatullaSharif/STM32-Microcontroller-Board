@@ -5176,16 +5176,25 @@
 		)
 		(uuid 66b6609b-5762-4e0c-ae12-b56668ba7034)
 	)
-	(text "Check internal pullups if present"
+	(text "(SCL)"
 		(exclude_from_sim no)
-		(at 64.516 149.606 0)
+		(at 27.686 112.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 19 1)
 			)
 		)
-		(uuid "2cca0296-a9d3-4bd9-b0ce-c985bf7b0183")
+		(uuid "10c71f87-5e6e-4f6a-b77b-a3dacc0dd390")
+	)
+	(text "(PWM3)"
+		(exclude_from_sim no)
+		(at 66.04 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13cf9848-766d-442c-abec-a1f64a5a2374")
 	)
 	(text "1mA"
 		(exclude_from_sim no)
@@ -5197,6 +5206,16 @@
 		)
 		(uuid "3020d7e6-2750-4e88-9ab0-a0aeb43166ec")
 	)
+	(text "(RX)"
+		(exclude_from_sim no)
+		(at 64.516 124.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "332292c9-909f-4977-8702-f78d89208040")
+	)
 	(text "BTN1"
 		(exclude_from_sim no)
 		(at 211.074 123.19 0)
@@ -5207,16 +5226,15 @@
 		)
 		(uuid "39b468ce-1f47-4a61-9112-4cde295bcc46")
 	)
-	(text "Add actual pins"
+	(text "(MISO)"
 		(exclude_from_sim no)
-		(at 48.768 95.25 0)
+		(at 27.178 122.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 7 1)
 			)
 		)
-		(uuid "49c4592c-6c24-4ded-a75f-4058aab7d042")
+		(uuid "3b240ca0-0377-400f-984c-770fb55f5b99")
 	)
 	(text "STM32F407 RESET & BOOT0"
 		(exclude_from_sim no)
@@ -5239,6 +5257,16 @@
 		)
 		(uuid "4c02ce46-0f81-4421-9d06-637b417a7f95")
 	)
+	(text "(TX)"
+		(exclude_from_sim no)
+		(at 28.448 124.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "622d01ab-512e-47ba-8474-1377fa0d62e7")
+	)
 	(text "1mA"
 		(exclude_from_sim no)
 		(at 271.272 131.318 0)
@@ -5259,6 +5287,16 @@
 			(justify left bottom)
 		)
 		(uuid "78f2aff2-43f2-4498-8a85-7bcc111cb829")
+	)
+	(text "(PWM2)"
+		(exclude_from_sim no)
+		(at 65.024 117.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7965955c-abb2-47d8-a252-78621dd49815")
 	)
 	(text "1.45mA"
 		(exclude_from_sim no)
@@ -5311,6 +5349,26 @@
 		)
 		(uuid "92ad414e-b7da-416e-a6f1-aad0561f43fa")
 	)
+	(text "(PWM1)"
+		(exclude_from_sim no)
+		(at 65.024 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9745f27a-a4ae-4067-a496-572265d85e72")
+	)
+	(text "(PWM4)"
+		(exclude_from_sim no)
+		(at 66.04 122.428 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98bbb696-642e-4e1d-b617-257ea7bb7881")
+	)
 	(text "RESET"
 		(exclude_from_sim no)
 		(at 37.592 60.198 0)
@@ -5320,6 +5378,26 @@
 			)
 		)
 		(uuid "9e7703ec-a6ef-4982-8fbb-e728d381b515")
+	)
+	(text "(SDA)"
+		(exclude_from_sim no)
+		(at 27.686 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8623057-334c-4564-9f4b-423bc589b881")
+	)
+	(text "(SCK)"
+		(exclude_from_sim no)
+		(at 27.686 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d824d4bf-a4a5-4899-8e7c-5d5d4023690a")
 	)
 	(text "GPIO Extension"
 		(exclude_from_sim no)
@@ -5332,6 +5410,16 @@
 		)
 		(uuid "dd977620-81a2-44f9-862b-c2727c312a98")
 	)
+	(text "(MOSI)"
+		(exclude_from_sim no)
+		(at 27.178 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddcc48e3-1596-41ed-8642-0703432edb42")
+	)
 	(text "Peripherals"
 		(exclude_from_sim no)
 		(at 196.088 113.03 0)
@@ -5342,17 +5430,6 @@
 			(justify left bottom)
 		)
 		(uuid "df29a6f0-87ed-4e1f-9001-d23d4d2e2d38")
-	)
-	(text "Add TP"
-		(exclude_from_sim no)
-		(at 94.488 39.878 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 65 1)
-			)
-		)
-		(uuid "e07249cc-c635-4016-9e5f-3beb085cfa3b")
 	)
 	(text "BTN2"
 		(exclude_from_sim no)
@@ -9190,7 +9267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1000PF 100V X7R 0603"
+		(property "Description" "CAP CER 1000PF 16V X7R 0603"
 			(at 203.2 76.2 0)
 			(effects
 				(font
@@ -9208,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A102KA01D"
+		(property "MPN" "C0603C102K4RACTU"
 			(at 203.2 76.2 0)
 			(effects
 				(font
@@ -12434,7 +12511,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTS645SK50SMTR92 LFS"
+		(property "MPN" "SWT0310-043016GSA"
 			(at 41.91 55.88 90)
 			(effects
 				(font
@@ -12609,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTS645SK50SMTR92 LFS"
+		(property "MPN" "SWT0310-043016GSA"
 			(at 25.4 44.45 90)
 			(effects
 				(font
@@ -15250,7 +15327,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTS645SK50SMTR92 LFS"
+		(property "MPN" "SWT0310-043016GSA"
 			(at 227.33 127 90)
 			(effects
 				(font
@@ -15680,7 +15757,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTS645SK50SMTR92 LFS"
+		(property "MPN" "SWT0310-043016GSA"
 			(at 207.01 127 90)
 			(effects
 				(font

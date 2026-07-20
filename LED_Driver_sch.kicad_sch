@@ -1474,6 +1474,360 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SMF15A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF15A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMF15A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF15A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SMBJ15A:SMBJ15A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SMBJ15A"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DIOM5436X261N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Littelfuse SMBJ15A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.61"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "576-SMBJ15A"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ15A?qs=JJML70Qc14tCp%252BqUTrW7IA%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SMBJ15A"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ15A_1_1"
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 6.096 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -1800,25 +2154,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q1"
+				(at 8.636 -1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -1836,7 +2189,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "Description" "MOSFET P-CH 30V 13A 8SOIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1868,6 +2221,25 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FDS6679"
+				(at 6.096 -1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 132 132 1)
+					)
+				)
+			)
+			(property "MPN" "FDS6679AZ"
+				(at 6.096 -1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 132 132 1)
 					)
 					(hide yes)
 				)
@@ -2059,7 +2431,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2077,7 +2449,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2095,7 +2467,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2574,7 +2946,7 @@
 	)
 	(rectangle
 		(start 31.496 32.258)
-		(end 103.124 85.852)
+		(end 104.394 90.424)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -2597,17 +2969,6 @@
 			(type none)
 		)
 		(uuid c8bf3ba0-498c-4834-8319-47a61d788ad8)
-	)
-	(text "Add ESD for 12V - DNP"
-		(exclude_from_sim no)
-		(at 54.102 81.534 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 3 0 1)
-			)
-		)
-		(uuid "26e1773d-e0de-48b7-adfa-f0bee186500c")
 	)
 	(text "+2.17V"
 		(exclude_from_sim no)
@@ -2668,7 +3029,7 @@
 	)
 	(text "B4PS-VH(LF)(SN)"
 		(exclude_from_sim no)
-		(at 42.672 64.516 0)
+		(at 42.164 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2690,16 +3051,22 @@
 		(uuid "07905fa0-c45b-423f-b36b-d5989bb712d4")
 	)
 	(junction
+		(at 72.39 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09aaaeca-773b-4664-b2aa-3b062ceb1607")
+	)
+	(junction
 		(at 223.52 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c26429a-c279-4ad9-b4da-4bf6c2879ff0")
 	)
 	(junction
-		(at 76.2 59.69)
+		(at 66.04 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "11ce9bb4-d743-482d-a8e5-c4c214f19b89")
+		(uuid "1afb7474-2629-4155-95a1-aa12d814b692")
 	)
 	(junction
 		(at 255.27 125.73)
@@ -2712,6 +3079,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dc935ce-ba62-470a-9783-c97ccb6a4b88")
+	)
+	(junction
+		(at 81.28 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45ea7904-a94e-46ed-bae8-7327de1c6cd0")
 	)
 	(junction
 		(at 196.85 142.24)
@@ -2732,6 +3105,18 @@
 		(uuid "5c9b9674-b8cc-465e-83c9-872c40910666")
 	)
 	(junction
+		(at 66.04 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fa5f4d7-6734-4512-8cfc-16b97708d9bd")
+	)
+	(junction
+		(at 76.2 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60f69f4e-039d-4046-9b1c-c48bf9b8be55")
+	)
+	(junction
 		(at 255.27 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2742,12 +3127,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8215c226-aaa2-4c58-8f0f-a318c27b0b51")
-	)
-	(junction
-		(at 76.2 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82b0b4c6-1b3f-4196-a88e-e3ce163d9677")
 	)
 	(junction
 		(at 83.82 139.7)
@@ -2768,10 +3147,28 @@
 		(uuid "a365366f-d6cf-4056-b11f-0b0eabc415a1")
 	)
 	(junction
+		(at 72.39 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a472aa7b-fb42-42e3-8e38-5f094c0e9478")
+	)
+	(junction
 		(at 219.71 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6c2b7cd-98d4-4cdc-b018-e4e4969f3639")
+	)
+	(junction
+		(at 52.07 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab1f7b07-8a15-4c17-af34-0e23c71fee25")
+	)
+	(junction
+		(at 90.17 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad3022f7-2914-4a0d-8df2-6617afc98f37")
 	)
 	(junction
 		(at 209.55 66.04)
@@ -2786,6 +3183,12 @@
 		(uuid "b9c1b694-c4a9-4981-bcb2-040adbbd0785")
 	)
 	(junction
+		(at 63.5 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb91fab6-e108-4976-a95c-f66da10bf445")
+	)
+	(junction
 		(at 52.07 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2798,10 +3201,10 @@
 		(uuid "be7406af-4bc0-451f-af0d-eb3c7c57553b")
 	)
 	(junction
-		(at 64.77 59.69)
+		(at 77.47 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "be87fac0-75dd-456f-9d70-359b07a77272")
+		(uuid "c4a0d681-1d2a-4995-bbbe-5853f9563751")
 	)
 	(junction
 		(at 52.07 139.7)
@@ -2839,6 +3242,12 @@
 		(color 0 0 0 0)
 		(uuid "f098f714-48c4-4b8d-8884-c46b86cd5727")
 	)
+	(junction
+		(at 77.47 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff67ef02-0cf4-43ea-bee9-048ac68c981c")
+	)
 	(wire
 		(pts
 			(xy 52.07 139.7) (xy 68.58 139.7)
@@ -2851,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 72.39) (xy 88.9 72.39)
+			(xy 76.2 81.28) (xy 77.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2861,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 52.07) (xy 52.07 52.07)
+			(xy 93.98 40.64) (xy 81.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2911,16 +3320,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 72.39) (xy 76.2 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101b1a10-ad21-4f6c-b322-979073ce4be7")
-	)
-	(wire
-		(pts
 			(xy 165.1 66.04) (xy 167.64 66.04)
 		)
 		(stroke
@@ -2948,6 +3347,16 @@
 			(type default)
 		)
 		(uuid "10a4d1e2-e3eb-4470-819c-007834611f1e")
+	)
+	(wire
+		(pts
+			(xy 66.04 66.04) (xy 77.47 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ccfe67-ba27-4b87-8c8d-11dbaed8595c")
 	)
 	(wire
 		(pts
@@ -2991,6 +3400,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 57.15) (xy 52.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28341144-bb21-456c-8a14-69b209555872")
+	)
+	(wire
+		(pts
 			(xy 196.85 142.24) (xy 214.63 142.24)
 		)
 		(stroke
@@ -3008,6 +3427,16 @@
 			(type default)
 		)
 		(uuid "2ad01e1e-e2d4-496d-b518-59a7cc3482b9")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 55.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b30b822-b8c9-478a-b425-2a06d5cd2c6d")
 	)
 	(wire
 		(pts
@@ -3031,7 +3460,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 62.23) (xy 64.77 59.69)
+			(xy 81.28 40.64) (xy 81.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c81f93-9f5b-4cb1-b36e-67fa26d36913")
+	)
+	(wire
+		(pts
+			(xy 66.04 68.58) (xy 66.04 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3051,6 +3490,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 55.88) (xy 63.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f7f83a-9191-481d-a5a5-8ddc58fff5f6")
+	)
+	(wire
+		(pts
 			(xy 83.82 118.11) (xy 83.82 116.84)
 		)
 		(stroke
@@ -3061,7 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 72.39) (xy 88.9 69.85)
+			(xy 90.17 81.28) (xy 90.17 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3071,7 +3520,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 76.2 59.69)
+			(xy 90.17 64.77) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3111,13 +3560,53 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 54.61) (xy 52.07 54.61)
+			(xy 72.39 57.15) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8ff02e-d044-42b1-92c2-27422b80925b")
+	)
+	(wire
+		(pts
+			(xy 52.07 81.28) (xy 66.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4193a15c-218d-4c2d-afb5-5c1143848c08")
+	)
+	(wire
+		(pts
+			(xy 93.98 43.18) (xy 72.39 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42e1ec93-12d0-4165-8e6a-c7953750c78b")
+	)
+	(wire
+		(pts
+			(xy 77.47 66.04) (xy 90.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c80d35-13ae-45d9-b64e-2a3b6bf4fc2e")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44251b01-cd6f-43dc-b490-1e1cdcd4bca3")
 	)
 	(wire
 		(pts
@@ -3128,6 +3617,16 @@
 			(type default)
 		)
 		(uuid "45c78573-4fe6-4b19-8758-41cfaa16ed16")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47913c18-c8e9-428b-b8bb-4ae4882186d6")
 	)
 	(wire
 		(pts
@@ -3201,13 +3700,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 72.39) (xy 76.2 69.85)
+			(xy 77.47 81.28) (xy 90.17 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "603e081e-7c94-47c4-9d81-ef4474423fde")
+		(uuid "5c69a51b-e6a8-42f6-9029-b017233c8679")
 	)
 	(wire
 		(pts
@@ -3231,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 57.15) (xy 52.07 57.15)
+			(xy 93.98 45.72) (xy 63.5 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3241,7 +3740,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 62.23) (xy 88.9 59.69)
+			(xy 66.04 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a089522-858a-40ff-be8c-96370e6980fd")
+	)
+	(wire
+		(pts
+			(xy 90.17 68.58) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3258,6 +3767,16 @@
 			(type default)
 		)
 		(uuid "6ba68cfe-51ff-4e4c-b639-cbc6b2bdd578")
+	)
+	(wire
+		(pts
+			(xy 81.28 40.64) (xy 53.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eac6e67-4471-456d-a9ff-b25568753370")
 	)
 	(wire
 		(pts
@@ -3278,6 +3797,26 @@
 			(type default)
 		)
 		(uuid "6fc71e36-bb46-4120-b30a-eda25d93c259")
+	)
+	(wire
+		(pts
+			(xy 53.34 52.07) (xy 52.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fbc02a-4413-42f2-9714-052c66ebc05a")
+	)
+	(wire
+		(pts
+			(xy 52.07 66.04) (xy 52.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ffef00-6e06-49c6-9c97-95a418ba7648")
 	)
 	(wire
 		(pts
@@ -3321,6 +3860,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 40.64) (xy 53.34 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b009e09-257c-484d-a160-79a1b1c41691")
+	)
+	(wire
+		(pts
+			(xy 63.5 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825fd0ad-8e64-4165-a32a-f8aff358b8ec")
+	)
+	(wire
+		(pts
 			(xy 83.82 125.73) (xy 83.82 128.27)
 		)
 		(stroke
@@ -3351,13 +3910,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 76.2 72.39)
+			(xy 63.5 45.72) (xy 58.42 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ded3164-6216-4386-ba57-70e8d4805a5c")
+		(uuid "86cb0ae5-5d52-4805-973b-66185581faaa")
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 77.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b19d7d9-78ec-4a67-a15c-93bef436a1f8")
 	)
 	(wire
 		(pts
@@ -3421,6 +3990,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 54.61) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cfd8a7-4bb0-466f-9593-3646bc25f134")
+	)
+	(wire
+		(pts
+			(xy 55.88 43.18) (xy 55.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e547382-ee17-47a7-a652-6f52122a1edd")
+	)
+	(wire
+		(pts
 			(xy 228.6 128.27) (xy 228.6 139.7)
 		)
 		(stroke
@@ -3431,13 +4020,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 69.85) (xy 64.77 72.39)
+			(xy 66.04 76.2) (xy 66.04 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab20ef0b-7663-4eff-ae31-e55cc40779fd")
+	)
+	(wire
+		(pts
+			(xy 58.42 45.72) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf12c43-0de5-4bcf-a73d-0fd7da82a5e0")
 	)
 	(wire
 		(pts
@@ -3448,6 +4047,16 @@
 			(type default)
 		)
 		(uuid "b371aebc-823a-4ae6-b3e8-76c3077a3c99")
+	)
+	(wire
+		(pts
+			(xy 81.28 55.88) (xy 81.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6101906-3964-46e8-9c4d-341fa2e8607d")
 	)
 	(wire
 		(pts
@@ -3498,6 +4107,16 @@
 			(type default)
 		)
 		(uuid "c03ebe9d-ae8a-4ab3-9eca-e72509c94047")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05ee84d-a9c8-445b-bb92-e3e77e65156a")
 	)
 	(wire
 		(pts
@@ -3561,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 59.69) (xy 64.77 59.69)
+			(xy 52.07 66.04) (xy 66.04 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3611,7 +4230,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 62.23) (xy 76.2 59.69)
+			(xy 77.47 68.58) (xy 77.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3731,16 +4350,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 59.69) (xy 76.2 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea191e21-c140-413a-98a9-1f7c8df28d52")
-	)
-	(wire
-		(pts
 			(xy 214.63 135.89) (xy 214.63 142.24)
 		)
 		(stroke
@@ -3761,6 +4370,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 55.88) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd2ea1e-5f0a-43e9-bb92-1f7fe96dede3")
+	)
+	(wire
+		(pts
 			(xy 209.55 66.04) (xy 209.55 72.39)
 		)
 		(stroke
@@ -3768,16 +4387,6 @@
 			(type default)
 		)
 		(uuid "f39b50b2-3b49-4de9-a496-576416fcd74a")
-	)
-	(wire
-		(pts
-			(xy 88.9 59.69) (xy 76.2 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f66bfb86-24e4-4394-a8ca-7594f7f3c7b8")
 	)
 	(wire
 		(pts
@@ -3798,6 +4407,16 @@
 			(type default)
 		)
 		(uuid "ff6956fc-6486-46f8-893c-b52de914a048")
+	)
+	(wire
+		(pts
+			(xy 63.5 45.72) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7906b7-4e44-4c24-9f0a-d0996b64f6df")
 	)
 	(table
 		(column_count 3)
@@ -4049,7 +4668,7 @@
 		(uuid "04f74457-e15b-46bd-b5f4-974060cc920a")
 	)
 	(label "R_LED"
-		(at 54.61 52.07 0)
+		(at 93.98 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4069,7 +4688,7 @@
 		(uuid "6cd777d0-b292-4584-9dab-75ae4d435008")
 	)
 	(label "G_LED"
-		(at 54.61 54.61 0)
+		(at 93.98 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4089,7 +4708,7 @@
 		(uuid "b39bf2f4-fc74-4f7c-aca1-7efa4e863766")
 	)
 	(label "B_LED"
-		(at 54.61 57.15 0)
+		(at 93.98 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4584,7 +5203,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 66.04 0)
+		(at 77.47 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4592,7 +5211,7 @@
 		(dnp no)
 		(uuid "15d8435b-acdf-4b62-a87c-0f1397951f27")
 		(property "Reference" "C46"
-			(at 80.01 64.7699 0)
+			(at 81.28 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +5220,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 80.01 67.3099 0)
+			(at 81.28 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +5229,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.1652 69.85 0)
+			(at 78.4352 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +5238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 66.04 0)
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +5247,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 76.2 66.04 0)
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +5256,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACTU"
-			(at 76.2 66.04 0)
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +5265,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 76.2 66.04 0)
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +5274,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 76.2 66.04 0)
+			(at 77.47 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,6 +5320,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
@@ -4739,13 +5359,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 238.76 125.73 0)
+		(property "Manufacturer_Part_Number" "TLV9001"
+			(at 249.682 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 0 132 132 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5210,7 +5830,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 66.04 0)
+		(at 66.04 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5219,7 +5839,7 @@
 		(fields_autoplaced yes)
 		(uuid "34cb9916-c7da-4a4d-b1d1-511431d8334b")
 		(property "Reference" "C45"
-			(at 68.58 64.7699 0)
+			(at 69.85 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +5848,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 68.58 67.3099 0)
+			(at 69.85 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5857,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 65.7352 69.85 0)
+			(at 67.0052 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 66.04 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5875,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 50V X7R 0603"
-			(at 64.77 66.04 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5884,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB105"
-			(at 64.77 66.04 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5893,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 64.77 66.04 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5902,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 64.77 66.04 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,6 +6073,136 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2346c034-96e7-4ad2-8744-64f2f9924932"
 					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMBJ15A:SMBJ15A")
+		(at 52.07 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e58e78a-a27c-4694-9951-85fc372dc967")
+		(property "Reference" "D15"
+			(at 55.88 71.8819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ15A"
+			(at 55.88 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:SMBJ15A"
+			(at -41.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf"
+			(at -141.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littelfuse SMBJ15A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.61"
+			(at -341.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-SMBJ15A"
+			(at -441.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ15A?qs=JJML70Qc14tCp%252BqUTrW7IA%3D%3D"
+			(at -541.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at -641.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ15A"
+			(at -741.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMBJ15A"
+			(at 52.07 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26039b1c-6109-43ff-b7c4-92e2a488be50")
+		)
+		(pin "1"
+			(uuid "4bd2a5e7-ac08-47cc-a06c-cb5d13d765f4")
+		)
+		(instances
+			(project ""
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2346c034-96e7-4ad2-8744-64f2f9924932"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6223,6 +6973,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF15A")
+		(at 81.28 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8285f8cd-5a65-410c-a4bd-d8990d100f05")
+		(property "Reference" "D18"
+			(at 83.82 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF15A"
+			(at 83.82 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMF15A"
+			(at 81.28 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e97b20ff-77fd-4634-bb63-4d6850d53c32")
+		)
+		(pin "1"
+			(uuid "2fa7e39b-dbd3-4671-9639-1d3f788bf4f0")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2346c034-96e7-4ad2-8744-64f2f9924932"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 196.85 132.08 0)
 		(unit 1)
@@ -6378,7 +7207,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 73.66 0)
+		(at 76.2 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6387,7 +7216,7 @@
 		(fields_autoplaced yes)
 		(uuid "924658ee-9793-49c0-a3cd-b9651ea2915a")
 		(property "Reference" "#PWR077"
-			(at 76.2 80.01 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +7225,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 78.74 0)
+			(at 76.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +7233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 73.66 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +7242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 73.66 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +7251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 73.66 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,6 +7644,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF15A")
+		(at 63.5 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2f4dc8b-8201-4705-af8d-0abcc7392ae5")
+		(property "Reference" "D16"
+			(at 66.04 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF15A"
+			(at 66.04 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMF15A"
+			(at 63.5 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eab9f16d-e172-4c05-a51e-dd52a09d2d58")
+		)
+		(pin "1"
+			(uuid "11141551-8a26-4551-960a-6065ba9ababa")
+		)
+		(instances
+			(project ""
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2346c034-96e7-4ad2-8744-64f2f9924932"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 255.27 146.05 180)
 		(unit 1)
@@ -6998,7 +7907,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 88.9 66.04 0)
+		(at 90.17 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7006,7 +7915,7 @@
 		(dnp no)
 		(uuid "c23f1606-3aa9-4249-b2e0-34184e64b39b")
 		(property "Reference" "C47"
-			(at 92.71 63.8809 0)
+			(at 93.98 70.2309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7924,7 @@
 			)
 		)
 		(property "Value" "680uF"
-			(at 92.71 66.4209 0)
+			(at 93.98 72.7709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +7933,7 @@
 			)
 		)
 		(property "Footprint" "footprints:UCL1E681MNL1GS"
-			(at 89.8652 69.85 0)
+			(at 91.1352 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +7942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 66.04 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +7951,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 680UF 20% 25V SMD"
-			(at 88.9 66.04 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +7960,7 @@
 			)
 		)
 		(property "MPN" "UCL1E681MNL1GS"
-			(at 96.012 69.088 0)
+			(at 97.282 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7970,7 @@
 			)
 		)
 		(property "Manufacturer" "Nichicon"
-			(at 88.9 66.04 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7979,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "UCL1E681M"
-			(at 96.266 68.834 0)
+			(at 97.536 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,8 +8235,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF15A")
+		(at 72.39 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0c0dbb1-d014-4f5b-a685-3aae2a77ab3f")
+		(property "Reference" "D17"
+			(at 74.93 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF15A"
+			(at 74.93 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMF15A"
+			(at 72.39 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f42e6e8a-f77d-44ec-98b8-82d819fa1c38")
+		)
+		(pin "1"
+			(uuid "458df6a0-8a7b-4f01-a0de-db39ae44409d")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2346c034-96e7-4ad2-8744-64f2f9924932"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
-		(at 76.2 58.42 0)
+		(at 90.17 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7336,7 +8325,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1fade94-149c-47c0-9550-87b894813d21")
 		(property "Reference" "#PWR076"
-			(at 76.2 62.23 0)
+			(at 90.17 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +8334,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 76.2 53.34 0)
+			(at 90.17 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +8342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 58.42 0)
+			(at 90.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +8351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 58.42 0)
+			(at 90.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +8360,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 58.42 0)
+			(at 90.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,6 +8648,72 @@
 			(project "STM32 Microcontroller Board"
 				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2346c034-96e7-4ad2-8744-64f2f9924932"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e39aff78-16aa-4d17-8843-dd6e39bf0676")
+		(property "Reference" "#PWR094"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e63b318-00a7-493e-85cd-734ad99f8ff2")
+		)
+		(instances
+			(project "STM32 Microcontroller Board"
+				(path "/c703575f-b97a-4282-ae81-d5777b8a5a01/2346c034-96e7-4ad2-8744-64f2f9924932"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)

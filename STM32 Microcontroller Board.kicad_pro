@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -138,7 +138,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
@@ -151,7 +151,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.1,
-        "min_track_width": 0.15,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -546,14 +546,14 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.15,
+        "clearance": 0.14,
+        "diff_pair_gap": 0.14,
+        "diff_pair_width": 0.12,
         "name": "ETH_DIFF100",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.12,
         "via_diameter": 0.5,
         "via_drill": 0.25
       },
@@ -568,14 +568,14 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.15,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.13,
         "name": "USB_DIFF90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.13,
         "via_diameter": 0.5,
         "via_drill": 0.25
       }
@@ -654,7 +654,7 @@
       "idf": "",
       "netlist": "",
       "plot": "D:/Downloads/new",
-      "pos_files": "D:/Downloads/new/",
+      "pos_files": "D:/Downloads/DeskNode-F4",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -1036,7 +1036,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "D:/Downloads/",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
